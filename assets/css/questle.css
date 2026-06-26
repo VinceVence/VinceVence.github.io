@@ -227,13 +227,15 @@ p, li {
 }
 .screenshot-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: clamp(12px, 2vw, 20px);
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: clamp(16px, 2.8vw, 28px);
   align-items: start;
+  max-width: 980px;
+  margin: 0 auto;
 }
 .screenshot-frame {
   margin: 0;
-  padding: 9px;
+  padding: 10px;
   border-radius: var(--radius-xl);
   background: var(--surface);
   border: 1px solid var(--line);
@@ -242,7 +244,6 @@ p, li {
 .screenshot-frame img {
   width: 100%;
   aspect-ratio: 941 / 1672;
-  max-height: 640px;
   object-fit: contain;
   border-radius: 18px;
   background: var(--canvas);
@@ -295,7 +296,7 @@ p, li {
 
 .backup-band {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(260px, 0.45fr);
+  grid-template-columns: minmax(0, 1fr) minmax(150px, 0.24fr);
   gap: clamp(24px, 5vw, 64px);
   align-items: center;
   padding: clamp(32px, 5vw, 56px);
@@ -312,15 +313,18 @@ p, li {
 }
 .brand-tile {
   margin: 0;
-  justify-self: end;
-  width: min(100%, 260px);
+  justify-self: center;
+  width: min(100%, 190px);
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: rgba(255, 255, 255, 0.72);
 }
 .brand-tile img {
   width: 100%;
   aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: var(--radius-xl);
-  box-shadow: 0 20px 48px rgba(23, 27, 45, 0.16);
+  object-fit: contain;
+  border-radius: 20px;
 }
 
 .badge {
@@ -402,10 +406,7 @@ p, li {
     justify-self: start;
   }
   .screenshot-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .screenshot-frame img {
-    max-height: 680px;
+    max-width: 760px;
   }
 }
 @media (max-width: 620px) {
