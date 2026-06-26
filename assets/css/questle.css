@@ -100,6 +100,8 @@ a:hover { text-decoration: underline; }
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
+.eyebrow.inverted { background: rgba(255,255,255,.18); color: #fff; }
+.badge.subtle { background: rgba(255, 178, 95, .17); color: #8d5d1e; }
 h1, h2, h3 {
   color: var(--ink);
   letter-spacing: -0.06em;
@@ -128,6 +130,8 @@ p, li { color: var(--muted); font-size: 1.04rem; }
 .button:hover { transform: translateY(-1px); text-decoration: none; }
 .button.primary { border-color: transparent; background: var(--ink); color: #fff; }
 .button.accent { border-color: transparent; background: var(--accent); color: #fff; }
+.hero-points { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.hero-points span { display: inline-flex; align-items: center; min-height: 36px; padding: 0 13px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,.58); color: var(--muted); font-weight: 850; font-size: .93rem; }
 
 .hero-card, .card, .page-card, .glass-card {
   background: rgba(255,255,255,0.78);
@@ -178,12 +182,18 @@ p, li { color: var(--muted); font-size: 1.04rem; }
 .stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
 .stat { background: rgba(255,255,255,0.66); border: 1px solid var(--line); border-radius: 20px; padding: 14px; }
 .stat strong { display: block; color: var(--ink); font-size: 1.55rem; line-height: 1; letter-spacing: -0.04em; }
+.mini-nav { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-top: 18px; }
+.mini-nav span { height: 42px; border-radius: 16px; background: rgba(255,255,255,.7); border: 1px solid var(--line); }
+.mini-nav span:first-child { background: var(--ink); }
 
 .section { width: min(1160px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0; }
+.compact-section { padding-top: 56px; }
 .section-header { max-width: 780px; margin-bottom: 28px; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
 .card { padding: 26px; box-shadow: var(--shadow-soft); }
+.large-card { min-height: 238px; }
+.large-card h3 { font-size: clamp(1.7rem, 3vw, 2.25rem); margin-top: 18px; }
 .card-icon {
   width: 46px;
   height: 46px;
