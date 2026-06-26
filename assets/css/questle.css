@@ -1,0 +1,358 @@
+:root {
+  color-scheme: light;
+  --bg: #fffaf2;
+  --surface: #ffffff;
+  --surface-soft: #f7efe3;
+  --ink: #1f2433;
+  --muted: #62677a;
+  --line: #eadfce;
+  --accent: #6f63ff;
+  --accent-ink: #ffffff;
+  --accent-soft: #eeecff;
+  --green-soft: #e8f5ef;
+  --shadow: 0 24px 70px rgba(31, 36, 51, 0.10);
+  --radius: 28px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(111, 99, 255, 0.13), transparent 34%),
+    radial-gradient(circle at 90% 0%, rgba(255, 190, 122, 0.18), transparent 32%),
+    var(--bg);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+body.simple-page {
+  background: var(--bg);
+}
+
+a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 26px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  font-size: 1.35rem;
+}
+
+.brand-mark {
+  width: 38px;
+  height: 38px;
+  border-radius: 13px;
+  background: linear-gradient(135deg, var(--accent), #a692ff);
+  color: white;
+  display: inline-grid;
+  place-items: center;
+  font-weight: 900;
+  box-shadow: 0 10px 30px rgba(111, 99, 255, 0.24);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.hero {
+  width: min(1120px, calc(100% - 40px));
+  margin: 32px auto 0;
+  padding: 72px 0 56px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
+  gap: 48px;
+  align-items: center;
+}
+
+.eyebrow,
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 999px;
+  padding: 8px 13px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.08;
+  letter-spacing: -0.055em;
+  color: var(--ink);
+}
+
+h1 {
+  font-size: clamp(3rem, 8vw, 6.5rem);
+  margin: 20px 0 18px;
+}
+
+h2 {
+  font-size: clamp(2rem, 5vw, 3.3rem);
+  margin: 0 0 16px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 0 0 8px;
+}
+
+p,
+li {
+  color: var(--muted);
+  font-size: 1.03rem;
+}
+
+.lede {
+  font-size: clamp(1.12rem, 2vw, 1.35rem);
+  max-width: 650px;
+  margin: 0 0 28px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  border-radius: 999px;
+  padding: 0 20px;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.72);
+  font-weight: 900;
+  box-shadow: 0 8px 24px rgba(31, 36, 51, 0.06);
+}
+
+.button.primary {
+  border-color: transparent;
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.hero-card,
+.card,
+.page-card {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(234, 223, 206, 0.9);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.hero-card {
+  padding: 24px;
+}
+
+.phone-shell {
+  border-radius: 38px;
+  border: 10px solid #25283a;
+  background: #fffaf2;
+  padding: 18px;
+  min-height: 560px;
+  box-shadow: 0 28px 80px rgba(31, 36, 51, 0.18);
+}
+
+.app-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.app-pill {
+  height: 12px;
+  width: 74px;
+  border-radius: 99px;
+  background: #25283a;
+  opacity: 0.22;
+}
+
+.quest-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 18px;
+  margin-bottom: 14px;
+}
+
+.quest-card.featured {
+  background: linear-gradient(135deg, #6f63ff, #9d8cff);
+  color: white;
+  border: 0;
+}
+
+.quest-card.featured p,
+.quest-card.featured h3 {
+  color: white;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.stat {
+  background: var(--surface-soft);
+  border-radius: 20px;
+  padding: 14px;
+}
+
+.stat strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1.55rem;
+  line-height: 1;
+}
+
+.section {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 72px 0;
+}
+
+.section-header {
+  max-width: 760px;
+  margin-bottom: 28px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.card {
+  padding: 24px;
+}
+
+.card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 16px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  display: inline-grid;
+  place-items: center;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.notice {
+  background: var(--green-soft);
+  border: 1px solid #cde8db;
+  border-radius: 22px;
+  padding: 18px;
+  color: #2b654f;
+}
+
+.page-main {
+  width: min(860px, calc(100% - 40px));
+  margin: 30px auto 72px;
+}
+
+.page-card {
+  padding: clamp(26px, 6vw, 48px);
+}
+
+.page-card h1 {
+  font-size: clamp(2.4rem, 7vw, 4.6rem);
+}
+
+.page-card h2 {
+  font-size: 1.45rem;
+  margin-top: 34px;
+}
+
+.page-card ul {
+  padding-left: 1.25rem;
+}
+
+.footer {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 42px 0 56px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  color: var(--muted);
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 860px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding-top: 32px;
+  }
+
+  .phone-shell {
+    min-height: 440px;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
