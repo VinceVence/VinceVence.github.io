@@ -14,14 +14,12 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="/" aria-label="Questle home">
-      <span class="brand-mark">Q</span>
-      <span>Questle</span>
-    </a>
+    <a class="brand" href="/" aria-label="Questle home"><span class="brand-mark">Q</span><span>Questle</span></a>
     <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#features">Features</a>
       <a href="/privacy/">Privacy</a>
       <a href="/support/">Support</a>
-      <a href="/account-deletion/">Account deletion</a>
+      <a class="nav-pill" href="/account-deletion/">Account deletion</a>
     </nav>
   </header>
 
@@ -29,85 +27,37 @@
     <section class="hero">
       <div>
         <span class="eyebrow">Solo side-quest app</span>
-        <h1>Everyday solo little quests.</h1>
-        <p class="lede">
-          Questle helps you discover small solo activities, complete them, and keep
-          a personal trail of the memories you make along the way.
-        </p>
-        <div class="actions">
-          <a class="button primary" href="/support/">Contact support</a>
-          <a class="button" href="/privacy/">Read privacy policy</a>
-        </div>
+        <h1>Make ordinary days feel worth remembering.</h1>
+        <p class="lede">Questle gives you small solo quests you can complete in everyday life, then turns them into a private trail of memories, streaks, badges, notes, and photo moments.</p>
+        <div class="actions"><a class="button primary" href="/privacy/">Privacy policy</a><a class="button" href="/support/">Support</a></div>
+        <p class="microcopy">Mobile-first. Optional Google sign-in. Photo memories stay on your device.</p>
       </div>
 
       <aside class="hero-card" aria-label="Questle app preview">
         <div class="phone-shell">
-          <div class="app-top">
-            <strong>Today</strong>
-            <span class="app-pill" aria-hidden="true"></span>
-          </div>
-          <div class="quest-card featured">
-            <p class="eyebrow" style="background: rgba(255,255,255,.18); color: white;">Active quest</p>
-            <h3>Take a quiet walk somewhere new</h3>
-            <p>Complete a small mission, add a note, and keep it in your trail.</p>
-          </div>
-          <div class="stats-grid">
-            <div class="stat"><strong>7</strong><span>day streak</span></div>
-            <div class="stat"><strong>28</strong><span>quests done</span></div>
-          </div>
-          <div class="quest-card">
-            <h3>Photo memories stay private</h3>
-            <p>Photos remain local on your device. Progress backup syncs progress only.</p>
-          </div>
-          <div class="quest-card">
-            <h3>Optional Google backup</h3>
-            <p>Sign in only when you want progress backup with Questle Pro.</p>
-          </div>
+          <div class="app-top"><span class="app-title">Today</span><span class="app-pill" aria-hidden="true"></span></div>
+          <div class="quest-card featured"><span class="eyebrow" style="background:rgba(255,255,255,.18);color:white">Active quest</span><h3>Find a quiet corner and take one intentional photo</h3><p>Complete the quest, add a mood, and keep it in your trail.</p></div>
+          <div class="stats-grid"><div class="stat"><strong>7</strong><span>day streak</span></div><div class="stat"><strong>28</strong><span>quests done</span></div></div>
+          <div class="quest-card"><h3>Memory saved</h3><p>Small coffee walk after work. Clear head. Worth doing again.</p></div>
+          <div class="quest-card"><h3>Privacy boundary</h3><p>Progress backup syncs progress only. Photo files are local-only.</p></div>
         </div>
       </aside>
     </section>
 
-    <section class="section">
-      <div class="section-header">
-        <span class="badge">How it works</span>
-        <h2>Small quests, simple memories.</h2>
-        <p>Questle is built for casual solo exploration. No pressure, no social feed, no complicated setup.</p>
-      </div>
+    <section id="features" class="section">
+      <div class="section-header"><span class="badge">How it works</span><h2>Small quests, simple memories.</h2><p>Questle is built for casual solo exploration. No public feed. No pressure. Just a tiny reason to step outside your routine.</p></div>
       <div class="grid-3">
-        <article class="card">
-          <div class="card-icon">1</div>
-          <h3>Discover</h3>
-          <p>Roll a solo activity idea for your day, from quick cozy tasks to small outdoor adventures.</p>
-        </article>
-        <article class="card">
-          <div class="card-icon">2</div>
-          <h3>Complete</h3>
-          <p>Finish the quest, write a note or mood, and build a trail of completed experiences.</p>
-        </article>
-        <article class="card">
-          <div class="card-icon">3</div>
-          <h3>Remember</h3>
-          <p>Review your calendar, badges, and memories over time. Photo memories stay on your device.</p>
-        </article>
+        <article class="card"><div class="card-icon">1</div><h3>Discover</h3><p>Roll a solo activity idea for your day, from cozy home rituals to small outdoor missions.</p></article>
+        <article class="card"><div class="card-icon">2</div><h3>Complete</h3><p>Finish the quest, write a note or mood, and build your personal quest history over time.</p></article>
+        <article class="card"><div class="card-icon">3</div><h3>Remember</h3><p>Review your calendar, badges, streaks, and memories. Keep the story without turning it into social media.</p></article>
       </div>
     </section>
 
-    <section class="section">
-      <div class="notice">
-        <strong>Privacy-first by design.</strong>
-        Questle works without an account. Google sign-in is optional and used for progress backup features.
-        Photo memories are local-only and are not uploaded to Questle cloud backup.
-      </div>
-    </section>
+    <section class="section"><div class="grid-2"><article class="card"><div class="card-icon">★</div><h3>Questle Pro</h3><p>Unlock richer memory features, more custom quests, and optional progress backup for your signed-in account.</p></article><article class="card"><div class="card-icon">◎</div><h3>Local-first memories</h3><p>Questle works without an account. Google sign-in is optional. Photo memories are not uploaded to Questle cloud backup.</p></article></div></section>
+
+    <section class="section"><div class="notice"><strong>Privacy-first by design.</strong> Questle stores personal quest memories locally by default. Optional progress backup is for progress data only, and photo files remain on the device where they were added.</div></section>
   </main>
 
-  <footer class="footer">
-    <div>&copy; 2026 Questle. Built by Vince Vence.</div>
-    <div class="footer-links">
-      <a href="/privacy/">Privacy</a>
-      <a href="/support/">Support</a>
-      <a href="/account-deletion/">Account deletion</a>
-    </div>
-  </footer>
+  <footer class="footer"><div>&copy; 2026 Questle.</div><div class="footer-links"><a href="/privacy/">Privacy</a><a href="/support/">Support</a><a href="/account-deletion/">Account deletion</a></div></footer>
 </body>
 </html>
