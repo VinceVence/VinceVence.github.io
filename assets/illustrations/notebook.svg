@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="title desc">
+  <title id="title">Questle memory notebook illustration</title>
+  <desc id="desc">A simple hand-drawn open notebook with a pencil and tucked photo.</desc>
+  <defs><style>.line{fill:none;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#172f4a;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}.lav{fill:#eeeaf6;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.blue{fill:#dfe8f1;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.gold{fill:#f0d49a;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.soft{fill:#f6f2fb}</style></defs>
+  <path class="blue" d="M260 43l91 19-23 92-91-18z"/>
+  <path class="thin" d="M263 112l25-30 20 21 13-14 18 26M315 75c12-10 24-10 36 0"/>
+  <path class="lav" d="M44 74c70-20 129-14 166 21 47-30 102-30 165-2v175c-62-29-118-29-166 1-50-29-105-30-165-2z"/>
+  <path class="line" d="M210 95v174"/>
+  <path class="thin" d="M73 126h96M73 151h105M73 176h84M73 201h100"/>
+  <path class="thin" d="M253 184c23-28 47-28 70 0M244 216h82M248 231h69"/>
+  <path class="gold" d="M203 269l21 0-11 35z"/>
+  <path class="thin" d="M92 221c14-31 28-47 43-48M96 199c16 7 29 5 39-10M112 213c14 5 27 3 38-8"/>
+  <path class="soft" d="M111 106c16-8 31-8 47 0v20h-47z"/>
+  <path class="thin" d="M329 131l48 14-40 130-48-14zM289 261l48 14-42 23z"/>
+  <path class="gold" d="M329 131l48 14-6 20-48-14z"/>
+  <path class="thin" d="M68 53l6-11 6 11 11 6-11 6-6 11-6-11-11-6zM50 284c12-15 25-15 38 0"/>
+</svg>
