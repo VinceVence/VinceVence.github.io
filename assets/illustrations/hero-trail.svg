@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Questle trail illustration</title>
+  <desc id="desc">A quiet coloring-book style scene with a cat, a winding path, a flag, hills, a tree, and small quest details.</desc>
+  <defs>
+    <style>
+      .line{fill:none;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .thin{fill:none;stroke:#172f4a;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+      .dot{fill:#172f4a}
+      .lav{fill:#eeeaf6;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .blue{fill:#dfe8f1;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .gold{fill:#f0d49a;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .soft{fill:#f6f2fb;stroke:none}
+    </style>
+  </defs>
+
+  <path class="thin" d="M80 420c100-28 183-29 276 0"/>
+  <path class="thin" d="M392 350c82-73 169-87 264-50 66 26 121 29 184 5"/>
+  <path class="thin" d="M582 264c38-42 79-67 131-84l75 76 42-40 50 55"/>
+
+  <path class="thin" stroke-dasharray="3 18" d="M319 398c63-28 97-74 132-121 30-40 73-60 128-49 45 9 59 34 38 65-26 38-88 41-117 80-28 39 11 72 94 82"/>
+
+  <path class="line" d="M188 388c-7-58 8-96 47-116 37 18 55 56 47 116"/>
+  <path class="line" d="M203 287l16-34 20 32M252 284l20-31 17 36"/>
+  <path class="thin" d="M204 329h-25M204 348h-28M282 329h27M283 348h30"/>
+  <path class="thin" d="M220 372c13 9 33 9 47 0"/>
+  <path class="line" d="M236 388v43M236 431c-17 0-36 4-53 14M237 431c20 2 37 9 50 22"/>
+  <path class="thin" d="M179 450c47 12 93 11 135-5"/>
+  <path class="line" d="M292 364v78"/>
+
+  <path class="line" d="M92 330v114"/>
+  <path class="blue" d="M56 333l118-28 42 30-118 30z"/>
+  <path class="lav" d="M60 389l113-29 43 29-115 32z"/>
+  <path class="gold" d="M63 445l108-29 43 27-111 33z"/>
+  <path class="thin" d="M88 463c-11 19-18 37-20 57M104 465c14 19 20 37 20 57"/>
+
+  <path class="line" d="M663 114v171"/>
+  <path class="lav" d="M667 128c45-20 82 16 126-2v72c-43 19-82-16-126 2z"/>
+  <path class="thin" d="M712 153l8-9 9 9M704 168c19 14 38 14 57 0"/>
+  <circle class="gold" cx="663" cy="112" r="9"/>
+
+  <path class="line" d="M782 397c3-88 23-135 62-162 44 32 65 82 62 162"/>
+  <path class="thin" d="M844 235v190M810 316c29 4 54-6 75-29M803 351c31 5 59-8 87-36M797 383c38 6 71-10 102-41"/>
+
+  <path class="line" d="M610 427l56-16 38 32-13 55-62 5-42-44z"/>
+  <path class="thin" d="M666 411v63M704 443l-38 31M587 459l79 15"/>
+  <circle class="dot" cx="636" cy="440" r="5"/><circle class="dot" cx="654" cy="476" r="5"/><circle class="dot" cx="681" cy="449" r="5"/>
+
+  <circle class="gold" cx="132" cy="132" r="18"/>
+  <path class="thin" d="M132 88v20M132 156v22M88 132h21M155 132h22M101 101l14 14M162 101l-14 14"/>
+  <path class="thin" d="M259 186c12-22 35-27 55-11 13-13 38-10 49 11 19-2 35 9 41 25H239c2-13 9-21 20-25z"/>
+  <path class="thin" d="M696 104c14-14 32-14 45 0M747 88c12-13 28-12 39 1"/>
+  <path class="thin" d="M748 448c10-12 20-12 31 0"/>
+
+  <path class="thin" d="M118 500c13-15 27-15 40 0M360 466c13-13 26-13 39 0M490 457c12-13 24-13 36 0"/>
+  <path class="thin" d="M450 156l7-14 8 14 14 7-14 8-8 14-7-14-14-8z"/>
+  <circle class="dot" cx="526" cy="128" r="3"/><circle class="dot" cx="564" cy="172" r="3"/><circle class="dot" cx="742" cy="97" r="3"/>
+</svg>
