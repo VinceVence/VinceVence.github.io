@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 320" role="img" aria-label="A small dotted trail leading to a flag">
+  <defs><style>.a{fill:none;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.b{fill:none;stroke:#172f4a;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}.c{fill:#eeeaf6;stroke:#172f4a;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.d{fill:#f0d49a;stroke:#172f4a;stroke-width:4}.e{fill:#172f4a}</style></defs>
+  <path class="b" d="M45 252c63-23 115-24 171-3"/>
+  <path class="b" stroke-dasharray="4 17" d="M155 250c68-33 111-78 103-119-7-36-57-39-88-13-35 29-23 67 32 76 59 10 106-8 142-50"/>
+  <path class="a" d="M268 54v101"/>
+  <path class="c" d="M272 68c34-16 61 12 95-3v48c-33 15-62-12-95 3z"/>
+  <circle class="d" cx="268" cy="52" r="8"/>
+  <path class="b" d="M296 82l6-6 6 6M291 94c15 10 31 10 45 0"/>
+  <path class="a" d="M72 237c4-70 20-111 54-135 38 28 55 73 52 135"/>
+  <path class="b" d="M126 102v155M99 159c22 6 41-4 61-25M94 190c27 7 51-7 73-34M89 220c31 8 60-8 85-42"/>
+  <path class="b" d="M57 263c14 13 28 13 43 0M214 267c13 13 27 13 40 0M286 204c12 12 25 12 38 0"/>
+  <path class="b" d="M116 48l6-11 6 11 12 6-12 6-6 12-6-12-12-6z"/>
+  <circle class="e" cx="82" cy="72" r="3"/><circle class="e" cx="230" cy="37" r="3"/><circle class="e" cx="323" cy="181" r="3"/>
+</svg>
