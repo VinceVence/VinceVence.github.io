@@ -269,6 +269,81 @@ li {
   border-top: 1px solid var(--line);
 }
 
+.screenshot-section {
+  border-top: 1px solid var(--line);
+}
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 28px;
+}
+
+.section-heading p {
+  margin: 0;
+  max-width: 680px;
+}
+
+.screenshot-grid,
+.asset-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 2vw, 24px);
+}
+
+.screenshot-card,
+.asset-card {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.screenshot-card {
+  padding: 14px;
+}
+
+.screenshot-card img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid var(--line-soft);
+}
+
+.screenshot-card h3,
+.asset-card h2 {
+  margin: 16px 8px 6px;
+  letter-spacing: -0.035em;
+}
+
+.screenshot-card p,
+.asset-card p {
+  margin: 0 8px 14px;
+}
+
+.asset-card {
+  padding: 14px;
+}
+
+.asset-card img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: contain;
+  border: 1px solid var(--line-soft);
+  border-radius: 18px;
+  background: var(--bg-soft);
+}
+
+.asset-card .button {
+  margin: 12px 8px 4px;
+}
+
+.download-strip {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 24px 0 34px;
+}
+
 .step-card {
   min-height: 390px;
   padding: 26px 24px 28px;
@@ -520,6 +595,11 @@ body.js-enabled .step-card.is-visible:focus-visible {
   }
 
   .steps-section {
+    grid-template-columns: 1fr;
+  }
+
+  .screenshot-grid,
+  .asset-grid {
     grid-template-columns: 1fr;
   }
 
