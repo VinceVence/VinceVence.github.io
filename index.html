@@ -3,125 +3,161 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Questle — Small solo adventures for everyday life</title>
-  <meta name="description" content="Questle is a calm solo quest app for tiny outings, quiet rituals, private memories, badges, progress, and optional account backup.">
-  <meta name="theme-color" content="#fffdfa">
-  <meta property="og:title" content="Questle — Small solo adventures for everyday life">
-  <meta property="og:description" content="Browse tiny solo quests, choose one for today, save a memory, and build your private Questle trail.">
+  <title>Questle - Tiny solo quests for ordinary days</title>
+  <meta name="description" content="Questle is a calm solo quest app for browsing tiny everyday missions, completing one today, and saving a private memory trail.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Questle - Tiny solo quests for ordinary days">
+  <meta property="og:description" content="Browse a solo quest catalog, choose one for today, save memories, and grow a private Questle trail.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://questle.org/">
   <meta property="og:image" content="https://questle.org/assets/marketing/google-play/feature-graphic-1024x500.png">
   <link rel="canonical" href="https://questle.org/">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="preload" as="image" href="/assets/marketing/google-play/feature-graphic-1024x500.png" type="image/png">
+  <link rel="preload" as="font" href="/assets/fonts/Sora.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="image" href="/assets/questle-site/questle-hero-cafe.png" type="image/png">
   <link rel="stylesheet" href="/assets/css/questle.css">
-  <script src="/assets/js/questle.js?v=20260703" defer></script>
+  <script src="/assets/js/questle.js?v=20260704" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="/"><img class="app-icon" src="/assets/brand/questle-app-icon.webp" width="40" height="40" alt="" aria-hidden="true" decoding="async"><span>Questle</span></a>
-    <nav class="nav-links" aria-label="Primary">
-      <a href="#features">Features</a>
-      <a href="#how">How it works</a>
-      <a href="#app">App</a>
-      <a href="#privacy">Privacy</a>
-      <a class="nav-pill" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">Get it on Google Play</a>
+    <a class="brand" href="/" aria-label="Questle home">
+      <img class="app-icon" src="/assets/brand/questle-app-icon.webp" width="44" height="44" alt="" aria-hidden="true" decoding="async">
+      <span>Questle</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#catalog">Catalog</a>
+      <a href="#trail">Trail</a>
+      <a href="#pro">Pro</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="/support/">Support</a>
+      <a class="nav-pill" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">Get the app</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Small steps. Big life.</p>
-        <h1>Small solo adventures for everyday life.</h1>
-        <p class="lede">Questle helps you browse tiny outings, quiet rituals, and real-world prompts made for one. Choose a Questle, complete it, and keep a private trail of the moments that made the day feel different.</p>
+        <h1>Small quests for ordinary days.</h1>
+        <p class="lede">Questle gives you a calm catalog of solo activities: pick one that fits your mood, complete it, and keep the memory for yourself.</p>
         <div class="actions">
-          <a class="button primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en"><img class="play-logo" src="/assets/brand/google-play-mark.png" width="24" height="24" alt="" aria-hidden="true" decoding="async">Get it on Google Play</a>
-          <a class="button secondary" href="#features">View features</a>
+          <a class="button primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">
+            <img class="play-logo" src="/assets/brand/google-play-mark.png" width="24" height="24" alt="" aria-hidden="true" decoding="async">
+            Get it on Google Play
+          </a>
+          <a class="button secondary" href="#inside">See the app</a>
         </div>
-        <p class="microcopy">Local-first. No public feed. Optional Google Account Backup for progress.</p>
+        <div class="trust-strip" aria-label="Questle release highlights">
+          <span>Solo quest catalog</span>
+          <span>Private memory trail</span>
+          <span>Optional Pro tools</span>
+        </div>
       </div>
-      <figure class="hero-drawing">
-        <img src="/assets/marketing/google-play/feature-graphic-1024x500.png" width="1024" height="500" alt="Questle app cards and quiet cat illustrations showing solo quests, memories, and trail tracking." decoding="async" fetchpriority="high">
-      </figure>
+
+      <div class="hero-stage" aria-label="Questle product preview">
+        <img class="hero-art" src="/assets/questle-site/questle-hero-cafe.png" width="1528" height="1029" alt="Questle mascot at a cafe table beside a phone showing simple app cards." decoding="async" fetchpriority="high">
+        <figure class="phone-card phone-card-home">
+          <img src="/assets/marketing/google-play/phone-01-home-catalog-1080x1920.png" width="1080" height="1920" alt="Questle Home catalog with Today's Questle and browseable quest cards." decoding="async">
+        </figure>
+      </div>
     </section>
 
-    <section id="features" class="section feature-strip" aria-label="Questle features">
-      <article>
-        <span>01</span>
-        <h2>Discover solo quests</h2>
-        <p>Open a calm catalog of tiny outings, rituals, and prompts for cafes, walks, reflection, culture, and creative days.</p>
-      </article>
-      <article>
-        <span>02</span>
-        <h2>Save memories</h2>
-        <p>Complete Questles with notes, moods, and photo memories so the small wins do not disappear.</p>
-      </article>
-      <article>
-        <span>03</span>
-        <h2>Track your trail</h2>
-        <p>Review your calendar, streaks, badges, and personal Quest Trail over time.</p>
-      </article>
-    </section>
-
-    <section id="how" class="section steps-section">
-      <article class="step-card" tabindex="0">
-        <div class="number-chip">1</div>
-        <div class="step-art"><img src="/assets/illustrations/questle-dice.webp" width="900" height="750" alt="A simple hand-drawn die on grass with tiny flowers and sparkles." loading="lazy" decoding="async"></div>
-        <h2>Browse the catalog</h2>
-        <p>Choose by mood, place, energy, duration, and difficulty.</p>
-      </article>
-      <article class="step-card" tabindex="0">
-        <div class="number-chip">2</div>
-        <div class="step-art"><img src="/assets/illustrations/questle-notebook.webp" width="900" height="686" alt="An open hand-drawn notebook with a tucked photo and pencil." loading="lazy" decoding="async"></div>
-        <h2>Start one Questle</h2>
-        <p>Open the details, see the vibe, and make it today’s tiny plan.</p>
-      </article>
-      <article class="step-card" tabindex="0">
-        <div class="number-chip">3</div>
-        <div class="step-art route-art"><img src="/assets/illustrations/questle-trail.webp" width="900" height="758" alt="A winding hand-drawn trail leading to a small quest flag." loading="lazy" decoding="async"></div>
-        <h2>Keep your trail</h2>
-        <p>Save notes, moods, photos, badges, and quiet progress over time.</p>
-      </article>
-    </section>
-
-    <section id="app" class="section screenshot-section">
+    <section id="inside" class="section app-showcase">
       <div class="section-heading">
-        <h2>Designed around tiny plans, not noisy feeds.</h2>
-        <p>Questle starts with Today’s Questle, opens into a browseable catalog, then keeps your memories, badges, Pro tools, and optional Account Backup in one calm place.</p>
+        <h2>A solo quest flow, not another dashboard.</h2>
+        <p>Home centers Today's Questle first, then lets you browse a catalog when you want to choose your own path.</p>
       </div>
-      <div class="screenshot-grid">
-        <article class="screenshot-card">
-          <img src="/assets/marketing/google-play/phone-01-home-catalog-1080x1920.png" width="1080" height="1920" alt="Questle Home catalog with Today's Questle and browseable quest cards." loading="lazy" decoding="async">
-          <h3>Choose from the catalog</h3>
-          <p>Pick a small solo quest that fits the day.</p>
+      <div class="showcase-grid">
+        <article class="showcase-copy">
+          <h3>Today's Questle stays obvious</h3>
+          <p>Complete Quest is the main action. Reroll and Lock stay nearby, quieter, and tied to the same mission logic in the app.</p>
+          <ul class="feature-list">
+            <li>Start from the curated coffee quest on first launch.</li>
+            <li>Choose one catalog quest each week for free.</li>
+            <li>Pro unlocks unlimited catalog starts and richer memories.</li>
+          </ul>
         </article>
-        <article class="screenshot-card">
-          <img src="/assets/marketing/google-play/phone-03-quest-trail-1080x1920.png" width="1080" height="1920" alt="Questle Trail calendar and timeline with saved memories." loading="lazy" decoding="async">
-          <h3>Save the trail</h3>
-          <p>Notes, moods, and photos stay private by default.</p>
-        </article>
-        <article class="screenshot-card">
-          <img src="/assets/marketing/google-play/phone-05-profile-pro-backup-1080x1920.png" width="1080" height="1920" alt="Questle Profile with Pro benefits and Account Backup." loading="lazy" decoding="async">
-          <h3>Unlock more when ready</h3>
-          <p>Pro adds more flexibility and optional progress backup.</p>
-        </article>
+        <figure class="screen-pair">
+          <img src="/assets/marketing/google-play/phone-01-home-catalog-1080x1920.png" width="1080" height="1920" alt="Questle home screen preview." loading="lazy" decoding="async">
+          <img src="/assets/marketing/google-play/phone-02-quest-detail-1080x1920.png" width="1080" height="1920" alt="Questle detail screen preview." loading="lazy" decoding="async">
+        </figure>
       </div>
     </section>
 
-    <section id="privacy" class="section privacy-band">
-      <div class="privacy-copy">
-        <p class="eyebrow">Private by default</p>
-        <h2>Your quiet life stays yours.</h2>
-        <p>Your quest history, notes, moods, streaks, custom Questles, and photo memories stay on your device by default. Account Backup syncs progress only when enabled, and photo files stay local.</p>
+    <section id="catalog" class="section split-section catalog-section">
+      <div class="split-media">
+        <img src="/assets/questle-site/questle-catalog-cards.png" width="1536" height="1024" alt="Illustration of Questle catalog cards with simple mascot art." loading="lazy" decoding="async">
       </div>
-      <figure class="privacy-art"><img src="/assets/illustrations/questle-privacy-cat.webp" width="900" height="686" alt="A cozy hand-drawn cat near a window with a small privacy lock." loading="lazy" decoding="async"></figure>
+      <div class="split-copy">
+        <h2>Browse by mood, place, and energy.</h2>
+        <p>Quest blocks show the title first, then category, duration, difficulty, and location type. Tap any block to inspect the quest before starting.</p>
+        <div class="mini-grid">
+          <div>
+            <strong>Creative</strong>
+            <span>Sketch, make, notice.</span>
+          </div>
+          <div>
+            <strong>Explore</strong>
+            <span>Tiny field trips nearby.</span>
+          </div>
+          <div>
+            <strong>Reflection</strong>
+            <span>Quiet prompts for slower days.</span>
+          </div>
+          <div>
+            <strong>Cafe</strong>
+            <span>Solo dates without pressure.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trail" class="section trail-section">
+      <div class="section-heading centered">
+        <h2>Save what happened, privately.</h2>
+        <p>Your Questle Trail turns small completions into a calendar, memory ledger, badges, and streaks without making it a public feed.</p>
+      </div>
+      <div class="trail-layout">
+        <figure class="trail-art">
+          <img src="/assets/questle-site/questle-memory-trail.png" width="1536" height="1024" alt="Questle mascot walking along a dotted path of calendar, notebook, badge, and privacy lock icons." loading="lazy" decoding="async">
+        </figure>
+        <div class="trail-screens">
+          <img src="/assets/marketing/google-play/phone-03-quest-trail-1080x1920.png" width="1080" height="1920" alt="Questle Trail screen with calendar and memory ledger." loading="lazy" decoding="async">
+          <img src="/assets/marketing/google-play/phone-04-badges-1080x1920.png" width="1080" height="1920" alt="Questle Badges screen with stamp collection." loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <section id="pro" class="section pro-section">
+      <div class="pro-copy">
+        <h2>Free stays useful. Pro adds room.</h2>
+        <p>Start with weekly catalog choice, rerolls, memories, and progress. Upgrade when you want unlimited catalog starts, more custom Questles, and richer save options.</p>
+      </div>
+      <div class="pro-card">
+        <img src="/assets/marketing/google-play/phone-05-profile-pro-backup-1080x1920.png" width="1080" height="1920" alt="Questle Profile screen with Pro benefits and account backup tools." loading="lazy" decoding="async">
+        <div>
+          <h3>Questle Pro</h3>
+          <p>Unlimited catalog picks, more custom quests, photo memories, and backup tools when configured.</p>
+          <a class="button primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">Get Questle</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <img src="/assets/questle-site/questle-hero-cafe.png" width="1528" height="1029" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      <div>
+        <h2>Ready for a tiny quest?</h2>
+        <p>Open Questle, choose one small thing, and let the day have a little shape.</p>
+        <a class="button primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">
+          <img class="play-logo" src="/assets/brand/google-play-mark.png" width="24" height="24" alt="" aria-hidden="true" decoding="async">
+          Download on Google Play
+        </a>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div>Questle</div>
+    <div class="footer-brand">Questle</div>
     <div class="footer-links">
       <a href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">Google Play</a><span></span>
       <a href="/privacy/">Privacy</a><span></span>
