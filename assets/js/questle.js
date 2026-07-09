@@ -2,7 +2,8 @@
   const body = document.body;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const stepCards = Array.from(document.querySelectorAll(".step-card"));
-  const heroDrawing = document.querySelector(".hero-drawing");
+  const privacyPoints = Array.from(document.querySelectorAll(".privacy-points span"));
+  const heroDrawing = document.querySelector(".hero-showcase, .hero-drawing");
 
   body.classList.add("js-enabled");
 
@@ -29,9 +30,10 @@
       },
     );
 
-    stepCards.forEach((card) => observer.observe(card));
+    [...stepCards, ...privacyPoints].forEach((item) => observer.observe(item));
   } else {
     stepCards.forEach(revealCard);
+    privacyPoints.forEach(revealCard);
   }
 
   const pulseCard = (card) => {
