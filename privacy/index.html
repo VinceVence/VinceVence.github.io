@@ -1,69 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy — Questle</title>
-  <meta name="description" content="Questle privacy policy for local app data, optional photo memories, purchases, Google sign-in, Account Backup, and support messages.">
-  <link rel="canonical" href="https://questle.org/privacy/">
-  <link rel="icon" href="/favicon.ico" sizes="any">
+  <title>Privacy Policy - Guwa</title>
+  <meta name="description" content="Guwa privacy policy covering local activities, notes, moods, photo memories, optional Account Backup, purchases, promotion redemption, and support.">
+  <meta property="og:title" content="Privacy Policy - Guwa">
+  <meta property="og:description" content="How Guwa handles local memories, optional backup, purchases, promotions, and support information.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://guwa.app/privacy/">
+  <meta property="og:image" content="https://guwa.app/assets/brand/guwa-feature-graphic.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://guwa.app/privacy/">
+  <link rel="icon" href="/assets/brand/guwa-favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/assets/css/questle.css">
+  <link rel="stylesheet" href="/assets/css/guwa.css">
 </head>
 <body class="simple-page">
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="/"><img class="app-icon" src="/assets/brand/questle-app-icon.webp" width="40" height="40" alt="" aria-hidden="true" decoding="async"><span>Questle</span></a>
-    <nav class="nav-links">
-      <a href="/privacy/">Privacy</a>
-      <a href="/support/">Support</a>
-      <a href="/account-deletion/">Account deletion</a>
-    </nav>
+    <a class="brand" href="/" aria-label="Guwa home"><img src="/assets/brand/guwa-mark.png" width="48" height="48" alt="" aria-hidden="true"><span>Guwa</span></a>
+    <nav class="nav-links" aria-label="Policy navigation"><a href="/privacy/" aria-current="page">Privacy</a><a href="/support/">Support</a><a href="/account-deletion/">Account deletion</a></nav>
   </header>
 
-  <main class="page-main">
-    <article class="page-card">
-      <span class="badge">Questle</span>
+  <main id="main" class="simple-main">
+    <header class="simple-header">
+      <p class="eyebrow">Guwa, formerly known as Questle</p>
       <h1>Privacy Policy</h1>
-      <p><strong>Last updated:</strong> July 3, 2026</p>
-      <p>Questle helps users discover solo activities, complete quests, save memories, track progress, and optionally back up progress.</p>
+      <p><strong>Last updated:</strong> July 12, 2026</p>
+      <p>Guwa helps people discover solo activities, complete them, save personal memories, and track progress. The app is local-first and remains usable without an account.</p>
+    </header>
 
-      <h2>Local app data</h2>
-      <p>Questle stores quest progress, notes, moods, badges, streaks, calendar history, custom quests, onboarding state, and optional photo memories on your device by default.</p>
-
-      <h2>Account Backup and Google sign-in</h2>
-      <p>If Account Backup is enabled and you sign in with Google, Questle may use your Google account identity to back up progress to the Questle Firebase project. Progress backup can include quest history, custom Questles, badges, streaks, and related app progress. Photo files are not uploaded by Account Backup.</p>
-
-      <h2>Photo memories</h2>
-      <p>Photo memories stay on your device. Questle does not upload photo files, image bytes, local photo paths, camera metadata, or gallery metadata.</p>
-
-      <h2>Purchases</h2>
-      <p>Questle may offer paid features through Google Play Billing and RevenueCat. Payment processing is handled by Google Play, and purchase entitlement status may be handled by RevenueCat.</p>
-
-      <h2>Support and feedback</h2>
-      <p>Support messages are voluntary and may include the information you choose to send, such as your message, app version, device details, or contact information.</p>
-
-      <h2>Service providers</h2>
-      <p>Questle does not sell personal data. Questle may use Google Play, Firebase, Google Sign-In, and RevenueCat to support app distribution, purchases, optional account backup, and app functionality.</p>
-
-      <h2>Retention and removal</h2>
-      <p>Local Questle data stays on your device until you remove app data from the device or uninstall Questle. Account Backup data, if enabled, can be removed by contacting support. Support messages are retained only as needed to respond to the request.</p>
-      <p><a class="button primary" href="/account-deletion/">Account deletion information</a></p>
-
-      <h2>Important disclaimer</h2>
-      <p>Questle is not a medical, therapy, financial, banking, investment, or emergency support app. Mood notes and reflections are optional personal journaling features only.</p>
-
-      <h2>Contact</h2>
-      <p>Email <a href="mailto:support@questle.org">support@questle.org</a> or use the support page to contact Questle.</p>
-    </article>
+    <section class="content-section"><h2>Local activities and progress</h2><p>Guwa stores activity history, active and locked activities, custom activities, notes, moods, badges, streaks, goals, calendar history, onboarding state, and usage-limit counters on your device by default.</p></section>
+    <section class="content-section"><h2>Photo memories</h2><p>Optional photo memories remain local files on your device. Guwa does not upload photo files, image bytes, local photo paths, camera metadata, or gallery metadata through Account Backup. Removing the app or clearing its storage may permanently remove these local files.</p></section>
+    <section class="content-section"><h2>Google Sign-In and authentication</h2><p>If you choose Google Sign-In, Firebase Authentication processes your Google account identity so Guwa can identify your optional backup account and securely associate eligible services with you. Guwa does not receive your Google password.</p></section>
+    <section class="content-section"><h2>Optional Account Backup</h2><p>When Account Backup is enabled and you choose to use it, Guwa stores a progress snapshot in Firebase Cloud Firestore. A snapshot can include activity history, custom activities, badges, streaks, goals, and related app progress. Photo files and local photo paths are excluded. Backup access is restricted to the authenticated owner.</p></section>
+    <section class="content-section"><h2>Purchases and Guwa Pro</h2><p>Guwa may offer paid features through Google Play Billing. Google processes payment details. RevenueCat helps Guwa retrieve purchase and entitlement status, restore purchases, and associate Guwa Pro access with the current app user identity. Guwa does not receive your full payment-card details.</p></section>
+    <section class="content-section"><h2>App Check and security</h2><p>Firebase App Check and Google Play Integrity help Guwa distinguish legitimate app requests from abuse. These services may process device, application, and integrity signals according to their own privacy terms.</p></section>
+    <section class="content-section"><h2>Promotion redemption</h2><p>When you redeem a promotional code, Guwa sends the normalized code with your authenticated request to Firebase. Eligibility, rate limits, campaign capacity, and resulting entitlement status are verified securely. Guwa does not use promotion redemption to collect payment-card information.</p></section>
+    <section class="content-section"><h2>Support communications</h2><p>Messages sent to support are voluntary. They may contain your email address and any app version, device details, order ID, screenshots, or description you choose to provide. Do not send passwords, tokens, private keys, payment-card details, or App Check tokens.</p></section>
+    <section class="content-section"><h2>Service providers</h2><p>Guwa does not sell personal data. Google Play, Firebase, Google Sign-In, RevenueCat, and email providers may process limited information to distribute the app, authenticate users, secure requests, provide optional backup, restore purchases, redeem promotions, and answer support requests.</p></section>
+    <section class="content-section"><h2>Retention and deletion</h2><p>Local information remains until you clear Guwa storage or uninstall the app. Optional Account Backup remains until it is replaced or a verified deletion request is completed. Support messages are retained only as needed to respond, maintain records, prevent abuse, or satisfy legal obligations.</p><p>Guwa does not currently provide a complete in-app account-deletion control. Follow the <a href="/account-deletion/">account and data deletion instructions</a> to remove local data or request removal of optional backup and related support data.</p></section>
+    <section class="content-section"><h2>Contact</h2><p>Questions can be sent to <a href="mailto:support@guwa.app?subject=Guwa%20Privacy%20Question">support@guwa.app</a>.</p></section>
   </main>
 
-  <footer class="footer">
-    <div>&copy; 2026 Questle.</div>
-    <div class="footer-links">
-      <a href="/">Home</a>
-      <a href="/support/">Support</a>
-      <a href="/account-deletion/">Account deletion</a>
-    </div>
-  </footer>
+  <footer class="footer"><div><strong>Guwa</strong><span>Small adventures for ordinary days.</span></div><nav aria-label="Footer navigation"><a href="/">Home</a><a href="/support/">Support</a><a href="/account-deletion/">Account deletion</a></nav></footer>
 </body>
 </html>
