@@ -1,0 +1,16 @@
+{
+  "name": "Guwa",
+  "short_name": "Guwa",
+  "description": "Small adventures for ordinary days.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6467D9",
+  "icons": [
+    {
+      "src": "/assets/brand/guwa-store-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

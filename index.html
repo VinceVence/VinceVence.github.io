@@ -1,245 +1,174 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Questle - Tiny solo quests for ordinary days</title>
-  <meta name="description" content="Questle is a calm solo quest app for browsing tiny everyday missions, completing one today, and saving a private memory trail.">
-  <meta name="theme-color" content="#ffffff">
-  <meta property="og:title" content="Questle - Tiny solo quests for ordinary days">
-  <meta property="og:description" content="Browse a solo quest catalog, choose one for today, save memories, and grow a private Questle trail.">
+  <title>Guwa - Small adventures for ordinary days</title>
+  <meta name="description" content="Discover solo activities, make a memory, and keep your progress in Guwa through notes, moods, photos, badges, streaks, and your personal trail.">
+  <meta name="theme-color" content="#6467D9">
+  <meta property="og:title" content="Guwa - Small adventures for ordinary days">
+  <meta property="og:description" content="Find something worth doing, experience it, and keep the memory with Guwa.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://questle.org/">
-  <meta property="og:image" content="https://questle.org/assets/marketing/google-play/feature-graphic-1024x500.png">
-  <link rel="canonical" href="https://questle.org/">
-  <link rel="icon" href="/favicon.ico" sizes="any">
+  <meta property="og:url" content="https://guwa.app/">
+  <meta property="og:image" content="https://guwa.app/assets/brand/guwa-feature-graphic.png">
+  <meta property="og:image:alt" content="Guwa cat stepping through a doorway beside the words Small adventures for ordinary days.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Guwa - Small adventures for ordinary days">
+  <meta name="twitter:description" content="Find something worth doing, experience it, and keep the memory with Guwa.">
+  <meta name="twitter:image" content="https://guwa.app/assets/brand/guwa-feature-graphic.png">
+  <link rel="canonical" href="https://guwa.app/">
+  <link rel="icon" href="/assets/brand/guwa-favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" as="font" href="/assets/fonts/Sora.ttf" type="font/ttf" crossorigin>
-  <link rel="preload" as="image" href="/assets/questle-site/questle-hero-cafe.png" type="image/png">
-  <link rel="stylesheet" href="/assets/css/questle.css">
-  <script src="/assets/js/questle.js?v=20260704" defer></script>
+  <link rel="preload" as="image" href="/assets/illustrations/guwa-home-greeting.png" type="image/png">
+  <link rel="stylesheet" href="/assets/css/guwa.css">
+  <script src="/assets/js/guwa.js" defer></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Guwa",
+      "alternateName": "Questle",
+      "operatingSystem": "Android",
+      "applicationCategory": "LifestyleApplication",
+      "description": "Small solo adventures, memories, progress, and badges.",
+      "url": "https://guwa.app/",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.vincevence.questle",
+      "image": "https://guwa.app/assets/brand/guwa-feature-graphic.png"
+    }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="/" aria-label="Questle home">
-      <img class="app-icon" src="/assets/brand/questle-app-icon.webp" width="44" height="44" alt="" aria-hidden="true" decoding="async">
-      <span>Questle</span>
+    <a class="brand" href="/" aria-label="Guwa home">
+      <img src="/assets/brand/guwa-mark.png" width="48" height="48" alt="" aria-hidden="true">
+      <span>Guwa</span>
     </a>
     <nav class="nav-links" aria-label="Primary navigation">
-      <a href="#catalog">Catalog</a>
-      <a href="#trail">Trail</a>
-      <a href="#pro">Pro</a>
-      <a href="/privacy/">Privacy</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#memories">Memories</a>
+      <a href="#pro">Guwa Pro</a>
+      <a href="#founder-pass">Founder Pass</a>
       <a href="/support/">Support</a>
-      <a class="nav-pill" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">Get the app</a>
+      <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.vincevence.questle">Google Play</a>
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <h1>Small quests for ordinary days.</h1>
-        <p class="lede">Questle gives you a calm catalog of solo activities: pick one that fits your mood, complete it, and keep the memory for yourself.</p>
-        <div class="actions">
-          <a class="button primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">
-            <img class="play-logo" src="/assets/brand/google-play-mark.png" width="24" height="24" alt="" aria-hidden="true" decoding="async">
-            Get it on Google Play
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <p class="eyebrow">Questle is now Guwa</p>
+        <h1 id="hero-title">Small adventures for ordinary days.</h1>
+        <p class="hero-copy">Guwa helps you find something worth doing, experience it, and keep the memory through photos, notes, moods, badges, and your personal activity trail.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle">
+            <img src="/assets/brand/google-play-mark.png" width="22" height="22" alt="" aria-hidden="true">
+            Get Guwa on Google Play
           </a>
-          <a class="button secondary" href="#inside">See the app</a>
-        </div>
-        <div class="trust-strip" aria-label="Questle release highlights">
-          <span>Solo quest catalog</span>
-          <span>Private memory trail</span>
-          <span>Optional Pro tools</span>
-        </div>
-      </div>
-
-      <div class="hero-stage" aria-label="Questle product preview">
-        <img class="hero-art" src="/assets/questle-site/questle-hero-cafe.png" width="1528" height="1029" alt="Questle mascot at a cafe table beside a phone showing simple app cards." decoding="async" fetchpriority="high">
-        <figure class="phone-card phone-card-home">
-          <img src="/assets/marketing/google-play/phone-01-home-catalog-1080x1920.png" width="1080" height="1920" alt="Questle Home catalog with Today's Questle and browseable quest cards." decoding="async">
-        </figure>
-      </div>
-    </section>
-
-    <section class="quest-carousel" aria-labelledby="quest-carousel-title">
-      <div class="quest-carousel-heading">
-        <h2 id="quest-carousel-title">Possible tiny quests</h2>
-        <p>Small prompts you can browse, inspect, start, and save as part of your private trail.</p>
-      </div>
-      <div class="quest-marquee" aria-label="Looping examples of Questle solo quests">
-        <div class="quest-marquee-track">
-          <div class="quest-marquee-set">
-            <article class="quest-pill">
-              <span class="quest-pill-category">Cafe</span>
-              <strong>Take yourself out for coffee</strong>
-              <span>15 min · Easy · Nearby</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Explore</span>
-              <strong>Do a convenience store field trip</strong>
-              <span>15 min · Easy · Shop</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Creative</span>
-              <strong>Sketch one quiet corner</strong>
-              <span>20 min · Easy · Anywhere</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Culture</span>
-              <strong>Browse local stationery</strong>
-              <span>20 min · Easy · Shop</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Reflection</span>
-              <strong>Write a letter to your week</strong>
-              <span>10 min · Calm · Home</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Nature</span>
-              <strong>Find three small signs of weather</strong>
-              <span>12 min · Easy · Outside</span>
-            </article>
-          </div>
-          <div class="quest-marquee-set" aria-hidden="true">
-            <article class="quest-pill">
-              <span class="quest-pill-category">Cafe</span>
-              <strong>Take yourself out for coffee</strong>
-              <span>15 min · Easy · Nearby</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Explore</span>
-              <strong>Do a convenience store field trip</strong>
-              <span>15 min · Easy · Shop</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Creative</span>
-              <strong>Sketch one quiet corner</strong>
-              <span>20 min · Easy · Anywhere</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Culture</span>
-              <strong>Browse local stationery</strong>
-              <span>20 min · Easy · Shop</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Reflection</span>
-              <strong>Write a letter to your week</strong>
-              <span>10 min · Calm · Home</span>
-            </article>
-            <article class="quest-pill">
-              <span class="quest-pill-category">Nature</span>
-              <strong>Find three small signs of weather</strong>
-              <span>12 min · Easy · Outside</span>
-            </article>
-          </div>
+          <a class="text-link" href="#how-it-works">See how Guwa works</a>
         </div>
       </div>
     </section>
 
-    <section id="inside" class="section app-showcase">
+    <section class="signal-band" aria-label="Guwa highlights">
+      <p>Solo activities</p>
+      <p>Local photo memories</p>
+      <p>Calendar and timeline</p>
+      <p>Optional Account Backup</p>
+    </section>
+
+    <section id="how-it-works" class="section section-intro">
       <div class="section-heading">
-        <h2>A solo quest flow, not another dashboard.</h2>
-        <p>Home centers Today's Questle first, then lets you browse a catalog when you want to choose your own path.</p>
+        <p class="eyebrow">A gentle loop</p>
+        <h2>Choose something. Go do it. Keep what mattered.</h2>
       </div>
-      <div class="showcase-grid">
-        <article class="showcase-copy">
-          <h3>Today's Questle stays obvious</h3>
-          <p>Complete Quest is the main action. Reroll and Lock stay nearby, quieter, and tied to the same mission logic in the app.</p>
-          <ul class="feature-list">
-            <li>Sign in with Google to back up progress across devices.</li>
-            <li>Choose one catalog quest each week for free.</li>
-            <li>Pro unlocks unlimited catalog starts and richer memories.</li>
-          </ul>
-        </article>
-        <figure class="screen-pair">
-          <img src="/assets/marketing/google-play/phone-01-home-catalog-1080x1920.png" width="1080" height="1920" alt="Questle home screen preview." loading="lazy" decoding="async">
-          <img src="/assets/marketing/google-play/phone-02-quest-detail-1080x1920.png" width="1080" height="1920" alt="Questle detail screen preview." loading="lazy" decoding="async">
-        </figure>
+      <ol class="step-list">
+        <li>
+          <span class="step-number">01</span>
+          <div><h3>Find an activity</h3><p>Browse by category, mood, place, time, and energy, or use Today’s Quest.</p></div>
+        </li>
+        <li>
+          <span class="step-number">02</span>
+          <div><h3>Make it yours</h3><p>Start, reroll, lock, or create a custom activity when you want your own plan.</p></div>
+        </li>
+        <li>
+          <span class="step-number">03</span>
+          <div><h3>Save the memory</h3><p>Add an optional note, mood, and local photo, then watch your trail grow.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="product-band" aria-labelledby="product-title">
+      <div class="product-copy">
+        <p class="eyebrow">Inside Guwa</p>
+        <h2 id="product-title">The activity stays clear. Everything else stays quiet.</h2>
+        <p>Today’s Quest is ready when you open the app. The catalog, Trail, badges, and custom activities are close by without turning your day into another dashboard.</p>
+      </div>
+      <div class="screen-row" role="group" aria-label="Guwa application screens">
+        <figure><img src="/assets/screens/guwa-home.png" width="1080" height="2400" alt="Guwa Home with Today’s Quest and the activity catalog." loading="lazy"><figcaption>Choose</figcaption></figure>
+        <figure><img src="/assets/screens/guwa-trail.png" width="1080" height="2400" alt="Guwa Trail showing a monthly activity calendar." loading="lazy"><figcaption>Remember</figcaption></figure>
+        <figure><img src="/assets/screens/guwa-badges.png" width="1080" height="2400" alt="Guwa Badges showing available progress milestones." loading="lazy"><figcaption>Grow</figcaption></figure>
       </div>
     </section>
 
-    <section id="catalog" class="section split-section catalog-section">
-      <div class="split-media">
-        <img src="/assets/questle-site/questle-catalog-cards.png" width="1536" height="1024" alt="Illustration of Questle catalog cards with simple mascot art." loading="lazy" decoding="async">
-      </div>
-      <div class="split-copy">
-        <h2>Browse by mood, place, and energy.</h2>
-        <p>Quest blocks show the title first, then category, duration, difficulty, and location type. Tap any block to inspect the quest before starting.</p>
-        <div class="mini-grid">
-          <div>
-            <strong>Creative</strong>
-            <span>Sketch, make, notice.</span>
-          </div>
-          <div>
-            <strong>Explore</strong>
-            <span>Tiny field trips nearby.</span>
-          </div>
-          <div>
-            <strong>Reflection</strong>
-            <span>Quiet prompts for slower days.</span>
-          </div>
-          <div>
-            <strong>Cafe</strong>
-            <span>Solo dates without pressure.</span>
-          </div>
-        </div>
+    <section id="memories" class="section memory-section">
+      <div class="memory-art"><img src="/assets/illustrations/guwa-trail.png" width="591" height="591" alt="Guwa cat following a map toward a flag, with activity milestones along the trail." loading="lazy"></div>
+      <div class="memory-copy">
+        <p class="eyebrow">Your personal trail</p>
+        <h2>Small days become something you can look back on.</h2>
+        <p>Completed activities appear in your calendar and timeline. Notes, moods, badges, streaks, goals, and local photo memories stay personal instead of becoming a public feed.</p>
+        <ul class="plain-list">
+          <li>Photos remain on your device.</li>
+          <li>Google Sign-In is optional.</li>
+          <li>Account Backup syncs progress, not photo files.</li>
+        </ul>
       </div>
     </section>
 
-    <section id="trail" class="section trail-section">
-      <div class="section-heading centered">
-        <h2>Save what happened, privately.</h2>
-        <p>Your Questle Trail turns small completions into a calendar, memory ledger, badges, and streaks without making it a public feed.</p>
-      </div>
-      <div class="trail-layout">
-        <figure class="trail-art">
-          <img src="/assets/questle-site/questle-memory-trail.png" width="1536" height="1024" alt="Questle mascot walking along a dotted path of calendar, notebook, badge, and privacy lock icons." loading="lazy" decoding="async">
-        </figure>
-        <div class="trail-screens">
-          <img src="/assets/marketing/google-play/phone-03-quest-trail-1080x1920.png" width="1080" height="1920" alt="Questle Trail screen with calendar and memory ledger." loading="lazy" decoding="async">
-          <img src="/assets/marketing/google-play/phone-04-badges-1080x1920.png" width="1080" height="1920" alt="Questle Badges screen with stamp collection." loading="lazy" decoding="async">
-        </div>
-      </div>
-    </section>
-
-    <section id="pro" class="section pro-section">
-      <div class="pro-copy">
-        <h2>Free stays useful. Pro adds room.</h2>
-        <p>Start with weekly catalog choice, rerolls, memories, and progress. Upgrade when you want unlimited catalog starts, more custom Questles, and richer save options.</p>
-      </div>
-      <div class="pro-card">
-        <img src="/assets/marketing/google-play/phone-05-profile-pro-backup-1080x1920.png" width="1080" height="1920" alt="Questle Profile screen with Pro benefits and account backup tools." loading="lazy" decoding="async">
-        <div>
-          <h3>Questle Pro</h3>
-          <p>Unlimited catalog picks, more custom quests, photo memories, and Google sign-in backup when enabled.</p>
-          <a class="button primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">Get Questle</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section final-cta">
-      <img src="/assets/questle-site/questle-hero-cafe.png" width="1528" height="1029" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <section id="pro" class="pro-band">
       <div>
-        <h2>Ready for a tiny quest?</h2>
-        <p>Open Questle, choose one small thing, and let the day have a little shape.</p>
-        <a class="button primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">
-          <img class="play-logo" src="/assets/brand/google-play-mark.png" width="24" height="24" alt="" aria-hidden="true" decoding="async">
-          Download on Google Play
-        </a>
+        <p class="eyebrow eyebrow-light">Guwa Pro</p>
+        <h2>More room when you want it.</h2>
+        <p>Unlock unlimited catalog picks, more custom activities, local photo memories, richer recap cards, and optional progress backup across devices.</p>
       </div>
+      <img src="/assets/screens/guwa-profile.png" width="1080" height="2400" alt="Guwa Profile showing plan, progress, and Account Backup options." loading="lazy">
+    </section>
+
+    <section id="founder-pass" class="founder-section" aria-labelledby="founder-title">
+      <div class="founder-copy">
+        <p class="eyebrow">Limited launch offer</p>
+        <h2 id="founder-title">Try Guwa Pro with the Founder Pass.</h2>
+        <p>Eligible new users receive 60 days of Guwa Pro. Accounts must be no more than 30 days old, capacity is limited to 2,000 successful redemptions, and the offer is available through October 12, 2026.</p>
+        <p class="founder-note">Eligibility is verified securely in the app and remains subject to campaign capacity.</p>
+      </div>
+      <div class="code-panel">
+        <span>Founder Pass code</span>
+        <code id="founder-code">GUWAFOUNDERPASS2026</code>
+        <button class="button button-primary" type="button" data-copy-code="GUWAFOUNDERPASS2026" aria-describedby="copy-status">Copy code</button>
+        <p id="copy-status" class="copy-status" aria-live="polite">Readable as GUWA-FOUNDER-PASS-2026.</p>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div>
+        <p class="eyebrow">Your next little adventure</p>
+        <h2>Find something worth remembering.</h2>
+        <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle">Download Guwa</a>
+      </div>
+      <img src="/assets/brand/guwa-mark.png" width="512" height="512" alt="Guwa cat stepping through a doorway." loading="lazy">
     </section>
   </main>
 
   <footer class="footer">
-    <div class="footer-brand">Questle</div>
-    <div class="footer-links">
-      <a href="https://play.google.com/store/apps/details?id=com.vincevence.questle&hl=en">Google Play</a><span></span>
-      <a href="/privacy/">Privacy</a><span></span>
-      <a href="/support/">Support</a><span></span>
-      <a href="/account-deletion/">Account deletion</a><span></span>
-      <a href="/play-assets/">Play assets</a>
-    </div>
+    <div><strong>Guwa</strong><span>Small adventures for ordinary days.</span></div>
+    <nav aria-label="Footer navigation">
+      <a href="/privacy/">Privacy</a>
+      <a href="/support/">Support</a>
+      <a href="/account-deletion/">Account deletion</a>
+      <a href="mailto:support@guwa.app">support@guwa.app</a>
+    </nav>
   </footer>
 </body>
 </html>
