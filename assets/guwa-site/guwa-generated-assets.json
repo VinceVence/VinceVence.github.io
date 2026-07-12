@@ -1,0 +1,511 @@
+{
+  "palette": [
+    "#6467D9",
+    "#343779",
+    "#E9EAFB",
+    "#F48B74",
+    "#D9A64E",
+    "#171B2D",
+    "#FFFFFF"
+  ],
+  "assets": [
+    {
+      "filename": "assets/guwa-site/source/guwa-hero-doorway-source.png",
+      "concept": "Hero doorway",
+      "sourceReferences": [
+        "intro_discover.png",
+        "intro_trail.png",
+        "guwa_mark_transparent.png"
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sha256": "b9dcd447656667d229937c174441829df49fedf9d4a35cca33cf78ae5667a28e",
+      "websiteSection": "Hero",
+      "altTextRecommendation": "Guwa cat stepping through an open doorway to begin a small adventure.",
+      "transparentMaster": "assets/guwa-site/optimized/guwa-hero-doorway-master.png",
+      "derivatives": [
+        {
+          "filename": "assets/guwa-site/optimized/guwa-hero-doorway-1200.webp",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "format": "WEBP",
+          "sha256": "2e2c6cdc9df6b22791f29c8cb171666305961d547a00a716ae6acf46e3cdca47"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-hero-doorway-400.webp",
+          "dimensions": [
+            400,
+            400
+          ],
+          "format": "WEBP",
+          "sha256": "f2205d1f221987d782d221e6a5c585aee11b2f86a199bb1b1ac8488a14e499f7"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-hero-doorway-640.png",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "PNG",
+          "sha256": "7bf606270bcf23033c53e536d4ee9754e0fe18320a11bf059ca297f459da9e49"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-hero-doorway-640.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "WEBP",
+          "sha256": "2435f1c00d146de616b2f3b7f892afef0d1e9d6a9e6f379e28ec40fce0db60b8"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-hero-doorway-900.png",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "PNG",
+          "sha256": "12fdfad7f57e1e65d0c13d3792bf80284b3da329856171f9a0b02184d787ae25"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-hero-doorway-900.webp",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "WEBP",
+          "sha256": "8a478e0befc0a2692ff5533704a176288ea029b16f4a874b46344799288aea5a"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-hero-doorway-master.png",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "sha256": "592a23f4e345e4c61b1ba2000c323917dfbb7d3a18edca2d959414d362d468b6"
+        }
+      ]
+    },
+    {
+      "filename": "assets/guwa-site/source/guwa-find-activity-source.png",
+      "concept": "Find an activity",
+      "sourceReferences": [
+        "intro_choose.png",
+        "profile_cat_table.png",
+        "guwa_mark_transparent.png"
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sha256": "09df4f527d2f27e074fb9f3998aaef6e66085aa89a0fb217d4a5da2dd2e43ab6",
+      "websiteSection": "How Guwa works",
+      "altTextRecommendation": "Guwa cat choosing between three simple activity prompts.",
+      "transparentMaster": "assets/guwa-site/optimized/guwa-find-activity-master.png",
+      "derivatives": [
+        {
+          "filename": "assets/guwa-site/optimized/guwa-find-activity-1200.webp",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "format": "WEBP",
+          "sha256": "84cd275394e0ec00c04fce475aefd5fac286f521341b8cdcf6b35993e3955383"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-find-activity-400.webp",
+          "dimensions": [
+            400,
+            400
+          ],
+          "format": "WEBP",
+          "sha256": "a644746bb564fb9a9866d9b9faa08c122d431811944a3de5c9f9b238b7d063dd"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-find-activity-640.png",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "PNG",
+          "sha256": "19c0cf6b0fd8d600f430c59f5e47f3d0707e939623db01a690bb8ad1eb09600a"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-find-activity-640.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "WEBP",
+          "sha256": "41f22752cc68e5ad919c53bd5528829977067dd575b1574a579181eeef7bacda"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-find-activity-900.png",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "PNG",
+          "sha256": "f6a461e286c2d5cdc1bab9c6d64908413f58efa869feeb250bf7aa8b69c0c092"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-find-activity-900.webp",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "WEBP",
+          "sha256": "3bd01e0fd287c761267c31eec2a752f81dcb2f441705109c815ea1596a9beec9"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-find-activity-master.png",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "sha256": "104fa272e2fef1b128dea02430ca141d7c90225844bbeb6ca4d42dbb597cd681"
+        }
+      ]
+    },
+    {
+      "filename": "assets/guwa-site/source/guwa-go-experience-source.png",
+      "concept": "Go experience it",
+      "sourceReferences": [
+        "intro_discover.png",
+        "intro_trail.png",
+        "quest.png"
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sha256": "d435a580cb1eac771a5a52d6140a012ada815f55fbb6921ca6336ff3834744d0",
+      "websiteSection": "How Guwa works",
+      "altTextRecommendation": "Guwa cat following a short curved trail toward a small flag.",
+      "transparentMaster": "assets/guwa-site/optimized/guwa-go-experience-master.png",
+      "derivatives": [
+        {
+          "filename": "assets/guwa-site/optimized/guwa-go-experience-1200.webp",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "format": "WEBP",
+          "sha256": "1e9ba4fdc0de660c2a98d1899178bf4b19fbddc4483e471dcf7c0963ce75a1a4"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-go-experience-400.webp",
+          "dimensions": [
+            400,
+            400
+          ],
+          "format": "WEBP",
+          "sha256": "3c1eb5fc5cdf2611c321bb957b0e11d2126b5d124861a2c3f1aea779eff15a0f"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-go-experience-640.png",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "PNG",
+          "sha256": "d510e863eca38a2eb3898d0db4bacb96707ac075439f6e6d493dfe5aec681774"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-go-experience-640.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "WEBP",
+          "sha256": "06cc2e76cc0090cef903f86af002a14c75233187800094958b908dad9d801b9b"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-go-experience-900.png",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "PNG",
+          "sha256": "df7ca9fc6fd5016cd821bcb1a3e0a679c771a503e21d155efd7fea44b0a8ab6f"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-go-experience-900.webp",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "WEBP",
+          "sha256": "2315a6ac9bf047120b9d194777d00eda60224fbe7451bfab5c581f7a12fd5c97"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-go-experience-master.png",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "sha256": "de4be3a80855fd48f2ebc3c9fb596b32a9814aeceac13c6331fc74b316025fd7"
+        }
+      ]
+    },
+    {
+      "filename": "assets/guwa-site/source/guwa-keep-memory-source.png",
+      "concept": "Keep the memory",
+      "sourceReferences": [
+        "intro_memories.png",
+        "profile_cat_table.png",
+        "intro_trail.png"
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sha256": "31279b7585a1fb097a6455555918fc510da2df0fc8790546559ec403896428dc",
+      "websiteSection": "Memories",
+      "altTextRecommendation": "Guwa cat beside a notebook, photo frame, mood mark, and calendar.",
+      "transparentMaster": "assets/guwa-site/optimized/guwa-keep-memory-master.png",
+      "derivatives": [
+        {
+          "filename": "assets/guwa-site/optimized/guwa-keep-memory-1200.webp",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "format": "WEBP",
+          "sha256": "a201449c40daa4b20e81b6aad256c5f9c9e9698dc5fbf365201aaf1752912239"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-keep-memory-400.webp",
+          "dimensions": [
+            400,
+            400
+          ],
+          "format": "WEBP",
+          "sha256": "2f3521f14c4ec71e0c2c608b1c82a15d83b6475365dfb27486839664a27e4ade"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-keep-memory-640.png",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "PNG",
+          "sha256": "1a84e81c7a06ba65dd5905fcf29e34c283dd265a0ad287e5b4402c784ea38f5d"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-keep-memory-640.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "WEBP",
+          "sha256": "57c7690e84b6f7a3adf30d1138021e4eeb2b840fd1c0857c6de681ed43f54b1c"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-keep-memory-900.png",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "PNG",
+          "sha256": "4c1759cf527dc45261ecd3d18111a947d358afdb67717cc7a839d71ff426a80f"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-keep-memory-900.webp",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "WEBP",
+          "sha256": "82e3fbdd1e00490a45112e82eb6322568edd1c6ab4fc2854ca7167fe3667a267"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-keep-memory-master.png",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "sha256": "f544d4added8a9ab13dc687bf0242f900a56fd4142e942943823e4fa7e855b50"
+        }
+      ]
+    },
+    {
+      "filename": "assets/guwa-site/source/guwa-progress-badges-source.png",
+      "concept": "Progress your way",
+      "sourceReferences": [
+        "intro_trail.png",
+        "badge.png",
+        "home_greeting.png"
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sha256": "06b915eb2ace377069627e530f506da1cc92813375882f4a6504e3ed6d1a2610",
+      "websiteSection": "Progress",
+      "altTextRecommendation": "Guwa cat placing a badge on a short personal progress trail.",
+      "transparentMaster": "assets/guwa-site/optimized/guwa-progress-badges-master.png",
+      "derivatives": [
+        {
+          "filename": "assets/guwa-site/optimized/guwa-progress-badges-1200.webp",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "format": "WEBP",
+          "sha256": "e64844b2779da028055dc5c8ef55b5dd6d52e2eefb8344d7c288a19311779cc3"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-progress-badges-400.webp",
+          "dimensions": [
+            400,
+            400
+          ],
+          "format": "WEBP",
+          "sha256": "5f4143be2cc611c8e4cefb3abb34d402be937055ea15b7ffad97fc1e6e2f4c4d"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-progress-badges-640.png",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "PNG",
+          "sha256": "6f810f699dd2f2b100a20a9324adc24224009fe464c81766ad44ed07cb120c19"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-progress-badges-640.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "WEBP",
+          "sha256": "aadf618171145fa60bc753cacdf5f9f6374cdeeb9f35bff03f0e3016ebc47629"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-progress-badges-900.png",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "PNG",
+          "sha256": "4bd010feeaef5b0d7271de8259081c419faa8063bcbe3d05ec48c18ce66b7eae"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-progress-badges-900.webp",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "WEBP",
+          "sha256": "24e3c4df10d9adb76b35cb7aab8db603c5c9a5f6c8be36dfe3cb73cae54d9c27"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-progress-badges-master.png",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "sha256": "04025a78f6da9cf490e6ff824a280690ba8d9657ab5b203ea424da1ad1488fd0"
+        }
+      ]
+    },
+    {
+      "filename": "assets/guwa-site/source/guwa-founder-pass-source.png",
+      "concept": "Founder Pass",
+      "sourceReferences": [
+        "home_greeting.png",
+        "profile_cat_table.png",
+        "badge.png"
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sha256": "53779c7b64a9c0dbee58d78503c11396d9c0fc7a4137fef545d99832a772ee14",
+      "websiteSection": "Founder Pass",
+      "altTextRecommendation": "Guwa cat presenting a blank golden Founder Pass ticket.",
+      "transparentMaster": "assets/guwa-site/optimized/guwa-founder-pass-master.png",
+      "derivatives": [
+        {
+          "filename": "assets/guwa-site/optimized/guwa-founder-pass-1200.webp",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "format": "WEBP",
+          "sha256": "15d4fa4c93ed43965fc7c103bb0a0446b43722c39ac1cce08cc6d9a74cbc1397"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-founder-pass-400.webp",
+          "dimensions": [
+            400,
+            400
+          ],
+          "format": "WEBP",
+          "sha256": "59e89415d27927dcde17bd49fce8a6adc370c13f3948c58bc198bbf24b64cf67"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-founder-pass-640.png",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "PNG",
+          "sha256": "c2564b0f4812b98c02c245c59a3a96ec1e92f746ba96290be9d98584f8f2f519"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-founder-pass-640.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "format": "WEBP",
+          "sha256": "9f2b77bbf4dbce43bc7fed02993d901e735944be9cf17e338d785746db16c6f1"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-founder-pass-900.png",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "PNG",
+          "sha256": "786a181f05fff9ba73846db90543c943258b9e2e8f0882d0fe8792e396a6e319"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-founder-pass-900.webp",
+          "dimensions": [
+            900,
+            900
+          ],
+          "format": "WEBP",
+          "sha256": "687c718401feebbdc67e01739f35a3b12208c18d4a7c913ad6a6f9d2a3d61008"
+        },
+        {
+          "filename": "assets/guwa-site/optimized/guwa-founder-pass-master.png",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "sha256": "ed6e4a672d07080be7b93b1604c7a6a0ad5674e0028e66c76ed12876d6345d0e"
+        }
+      ]
+    }
+  ]
+}
