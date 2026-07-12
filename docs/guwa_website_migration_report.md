@@ -1,23 +1,24 @@
 # Guwa Website Migration Report
 
-Audited on 2026-07-12. Status: **READY FOR VISUAL WEBSITE REVIEW**.
+Audited and deployed on 2026-07-12. Status: **LIVE AT GUWA.APP**.
 
 ## Repository State
 
 - Repository: `VinceVence/VinceVence.github.io`
 - Branch: `feature/guwa-website-rebrand`
 - Starting HEAD: `48c8ff2bf4f3756b5bf60ac3f3090f10a2de5de8`
-- Starting `origin/main`: `e7882795da09ed46784e9014023f2ab42da87ab4`
+- Production `origin/main`: `007b572bf60b78e0c2d86f68888ca72467207842`
 - CNAME: exactly `guwa.app`
 - Application reference: `feature/guwa-rebrand` at `5fce026`
-- No push, merge, deploy, DNS, Firebase, RevenueCat, or Play action occurred
+- The approved website branch was fast-forwarded to `main`; no DNS, Firebase,
+  RevenueCat, or Play configuration changed
 
 ## Live Versus Local Audit
 
-Production still serves the Questle title, navigation, hero, screenshots,
-product terminology, Pro copy, footer, Privacy, Support, deletion copy, and old
-support address. The exact replacement matrix is in
-`docs/guwa_live_vs_local_audit.md`. The local branch is complete but undeployed.
+Production now serves the Guwa title, navigation, hero, screenshots, product
+terminology, Pro copy, footer, Privacy, Support, deletion copy, and Guwa support
+address. The original replacement matrix remains in
+`docs/guwa_live_vs_local_audit.md` as migration evidence.
 
 ## Current Product Inventory
 
@@ -79,6 +80,12 @@ simplicity, warmth, and non-essential accessible use.
 - Solid palette bands, Sora typography, restrained borders, and no heavy UI
   framework, fake app screen, or unsupported feature.
 - Mobile navigation with accessible expanded state and automatic close behavior.
+- A once-per-session rebrand announcement that makes Guwa the visual focus while
+  reassuring existing Questle users that their data and access remain intact.
+- A horizontally scrollable, keyboard-focusable carousel of six real catalog
+  activities using optimized derivatives of the app's existing category sprites.
+- Full-width sticky navigation and corrected mobile anchor timing so collapsed
+  menus do not hide destination headings.
 
 ## Founder Pass
 
@@ -118,10 +125,10 @@ text or fabricated UI.
 
 | Measure | Before local migration | Final redesigned site |
 | --- | ---: | ---: |
-| Selected homepage payload | ~2,339,096 B | ~510,421 B |
-| Selected image payload | ~2.2 MB | ~378,751 B |
-| CSS | one stylesheet | 18,781 B |
-| JavaScript | one script | 1,489 B |
+| Selected homepage payload | ~2,339,096 B | ~568,445 B |
+| Selected image payload | ~2.2 MB | ~427,271 B |
+| CSS | one stylesheet | 24,800 B |
+| JavaScript | one script | 4,974 B |
 | Browser-observed first-view requests | 11 | 16 |
 | Largest selected asset | large PNG marketing art | Sora font, 111,400 B |
 
@@ -141,6 +148,8 @@ future design work but are not referenced by page markup.
   clipping or incoherent overlap.
 - The hero leaves a visible hint of the following highlight band on compact and
   wide viewports.
+- The rebrand dialog fits at 320 px, the mobile hero no longer overlaps its CTA
+  or artwork, and anchor navigation lands below the collapsed sticky header.
 
 ## Flutter Public Links and Product Capture
 
@@ -207,19 +216,13 @@ No unexplained public Questle branding remains on the local site.
 - `f8973b9` `feat: update Guwa privacy support and deletion pages`
 - `dbdcea3` `perf: optimize Guwa marketing assets`
 - `docs: finalize Guwa website migration report` (this report and QA evidence)
+- `007b572` `feat: add Guwa launch popup and quest showcase`
 
 ## Deployment and Rollback
 
-After visual approval only:
-
-```bash
-cd /private/tmp/guwa-website
-git push origin feature/guwa-website-rebrand
-```
-
-Open a pull request into `main`, review the exact asset size and page diff, merge,
-then wait for GitHub Pages to publish `guwa.app`. Verify all routes, metadata,
-Founder Pass copy, email links, responsive widths, and TLS in production.
+The approved branch and `main` were pushed at commit `007b572`. GitHub Pages
+published the release to `https://guwa.app/`; the homepage, Privacy, Support,
+Account Deletion, and new quest-sample assets all returned HTTP 200.
 
 Rollback by reverting the merge commit on `main` and allowing GitHub Pages to
 republish the previous known-good site. Do not alter `CNAME`, DNS, Firebase,
@@ -227,10 +230,7 @@ RevenueCat, or the Android package as part of website rollback.
 
 ## Remaining Blockers
 
-1. Human visual approval of the six illustrations and final screenshots.
-2. Authorized push, pull request, merge, and GitHub Pages deployment.
-3. Post-deployment live-route and social-preview verification.
-4. Separate `questle.org` path-preserving redirects and support-email delivery
+1. Separate `questle.org` path-preserving redirects and support-email delivery
    verification remain release-operation tasks outside this branch.
 
-No local website implementation blocker remains.
+No website implementation or deployment blocker remains.
