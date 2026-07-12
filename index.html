@@ -43,6 +43,16 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <dialog id="rebrand-dialog" class="rebrand-dialog" aria-labelledby="rebrand-title" aria-describedby="rebrand-description">
+    <button class="dialog-close" type="button" data-dismiss-rebrand aria-label="Close announcement" title="Close announcement">&times;</button>
+    <div class="rebrand-mark" aria-hidden="true">
+      <img src="/assets/brand/guwa-mark-96.png" width="96" height="96" alt="">
+    </div>
+    <p class="eyebrow">A new name for the same little adventures</p>
+    <h2 id="rebrand-title"><span>Questle</span> is now <strong>Guwa.</strong></h2>
+    <p id="rebrand-description">Your activities, memories, badges, and Pro access stay right where they are. Only the name has changed.</p>
+    <button class="button button-primary" type="button" data-dismiss-rebrand>Explore Guwa</button>
+  </dialog>
   <header class="site-header">
     <a class="brand" href="/" aria-label="Guwa home">
       <img src="/assets/brand/guwa-mark-96.png" width="48" height="48" alt="" aria-hidden="true">
@@ -65,8 +75,10 @@
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy-block">
-        <p class="eyebrow eyebrow-light">Questle is now Guwa</p>
-        <img class="hero-wordmark" src="/assets/brand/guwa-wordmark-light.png" width="1000" height="300" alt="Guwa">
+        <div class="hero-brand-lockup" role="img" aria-label="Guwa">
+          <img src="/assets/brand/guwa-mark-96.png" width="96" height="96" alt="" aria-hidden="true">
+          <span>Guwa</span>
+        </div>
         <h1 id="hero-title">Small adventures for ordinary days.</h1>
         <p>Guwa helps you find something worth doing, experience it, and keep the memory through photos, notes, moods, badges, and your personal activity trail.</p>
         <div class="hero-actions">
@@ -93,6 +105,76 @@
       <p>Local photo memories</p>
       <p>Calendar and timeline</p>
       <p>Optional Account Backup</p>
+    </section>
+
+    <section class="quest-showcase" aria-labelledby="quest-showcase-title">
+      <div class="quest-showcase-heading">
+        <div>
+          <p class="eyebrow">A few ways to begin</p>
+          <h2 id="quest-showcase-title">Pick a small adventure that fits today.</h2>
+          <p>Real activities from Guwa's catalog, from a fifteen-minute wander to a quiet creative reset.</p>
+        </div>
+        <div class="carousel-controls" role="group" aria-label="Quest carousel controls">
+          <button type="button" data-carousel-direction="previous" aria-label="Previous activities" title="Previous activities">&#8592;</button>
+          <button type="button" data-carousel-direction="next" aria-label="Next activities" title="Next activities">&#8594;</button>
+        </div>
+      </div>
+      <section class="quest-track" data-quest-carousel tabindex="0" aria-label="Sample Guwa activities">
+        <article class="quest-card">
+          <div class="quest-card-art quest-card-art-cafe"><img src="/assets/quest-samples/cafe.webp" width="320" height="320" alt="Guwa cat enjoying a cafe activity." loading="lazy"></div>
+          <div class="quest-card-copy">
+            <span class="quest-category">Treat</span>
+            <h3>Take yourself out for coffee</h3>
+            <p>Order one drink and stay long enough to settle into the moment.</p>
+            <div class="quest-meta"><span>25 min</span><span>Easy</span><span>Cafe</span></div>
+          </div>
+        </article>
+        <article class="quest-card">
+          <div class="quest-card-art quest-card-art-explore"><img src="/assets/quest-samples/explore.webp" width="320" height="320" alt="Guwa cat setting out to explore." loading="lazy"></div>
+          <div class="quest-card-copy">
+            <span class="quest-category">Explore</span>
+            <h3>Do a convenience store field trip</h3>
+            <p>Browse the shelves like a tiny museum of snacks and drinks.</p>
+            <div class="quest-meta"><span>15 min</span><span>Easy</span><span>Nearby</span></div>
+          </div>
+        </article>
+        <article class="quest-card">
+          <div class="quest-card-art quest-card-art-creative"><img src="/assets/quest-samples/creative.webp" width="320" height="320" alt="Guwa cat making something creative." loading="lazy"></div>
+          <div class="quest-card-copy">
+            <span class="quest-category">Creative</span>
+            <h3>Do a color photo walk</h3>
+            <p>Pick one color and photograph five ordinary things that match it.</p>
+            <div class="quest-meta"><span>30 min</span><span>Easy</span><span>Outdoor</span></div>
+          </div>
+        </article>
+        <article class="quest-card">
+          <div class="quest-card-art quest-card-art-culture"><img src="/assets/quest-samples/culture.webp" width="320" height="320" alt="Guwa cat browsing a cultural activity." loading="lazy"></div>
+          <div class="quest-card-copy">
+            <span class="quest-category">Culture</span>
+            <h3>Browse local stationery</h3>
+            <p>Visit an art or supply shop and notice local brands and design choices.</p>
+            <div class="quest-meta"><span>20 min</span><span>Easy</span><span>Shop</span></div>
+          </div>
+        </article>
+        <article class="quest-card">
+          <div class="quest-card-art quest-card-art-nature"><img src="/assets/quest-samples/nature.webp" width="320" height="320" alt="Guwa cat spending time outdoors." loading="lazy"></div>
+          <div class="quest-card-copy">
+            <span class="quest-category">Nature</span>
+            <h3>Watch sunset outside</h3>
+            <p>Find somewhere safe with open sky and stay until the light changes.</p>
+            <div class="quest-meta"><span>30 min</span><span>Easy</span><span>Outdoor</span></div>
+          </div>
+        </article>
+        <article class="quest-card">
+          <div class="quest-card-art quest-card-art-reflection"><img src="/assets/quest-samples/reflection.webp" width="320" height="320" alt="Guwa cat taking a quiet moment to reflect." loading="lazy"></div>
+          <div class="quest-card-copy">
+            <span class="quest-category">Reflection</span>
+            <h3>Write a tiny field note</h3>
+            <p>Describe one place using what you saw, heard, smelled, and felt.</p>
+            <div class="quest-meta"><span>10 min</span><span>Easy</span><span>Anywhere</span></div>
+          </div>
+        </article>
+      </section>
     </section>
 
     <section id="how-it-works" class="section how-section" aria-labelledby="how-title">
