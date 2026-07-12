@@ -4,24 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Guwa - Small adventures for ordinary days</title>
-  <meta name="description" content="Discover solo activities, make a memory, and keep your progress in Guwa through notes, moods, photos, badges, streaks, and your personal trail.">
-  <meta name="theme-color" content="#6467D9">
+  <meta name="description" content="Find a small solo activity, go experience it, and keep the memory with notes, moods, local photos, badges, and your personal Guwa trail.">
+  <meta name="theme-color" content="#343779">
   <meta property="og:title" content="Guwa - Small adventures for ordinary days">
   <meta property="og:description" content="Find something worth doing, experience it, and keep the memory with Guwa.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://guwa.app/">
-  <meta property="og:image" content="https://guwa.app/assets/brand/guwa-feature-graphic.png">
-  <meta property="og:image:alt" content="Guwa cat stepping through a doorway beside the words Small adventures for ordinary days.">
+  <meta property="og:image" content="https://guwa.app/assets/brand/guwa-open-graph-1200x630.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Guwa cat stepping through an open doorway beside the words Small adventures for ordinary days.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Guwa - Small adventures for ordinary days">
   <meta name="twitter:description" content="Find something worth doing, experience it, and keep the memory with Guwa.">
-  <meta name="twitter:image" content="https://guwa.app/assets/brand/guwa-feature-graphic.png">
+  <meta name="twitter:image" content="https://guwa.app/assets/brand/guwa-open-graph-1200x630.png">
   <link rel="canonical" href="https://guwa.app/">
   <link rel="icon" href="/assets/brand/guwa-favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" as="font" href="/assets/fonts/Sora.ttf" type="font/ttf" crossorigin>
-  <link rel="preload" as="image" href="/assets/illustrations/guwa-home-greeting.png" type="image/png">
+  <link rel="preload" as="image" href="/assets/guwa-site/optimized/guwa-hero-doorway-900.webp" type="image/webp">
   <link rel="stylesheet" href="/assets/css/guwa.css">
   <script src="/assets/js/guwa.js" defer></script>
   <script type="application/ld+json">
@@ -32,10 +34,10 @@
       "alternateName": "Questle",
       "operatingSystem": "Android",
       "applicationCategory": "LifestyleApplication",
-      "description": "Small solo adventures, memories, progress, and badges.",
+      "description": "Small solo activities, private memories, progress, and badges.",
       "url": "https://guwa.app/",
       "downloadUrl": "https://play.google.com/store/apps/details?id=com.vincevence.questle",
-      "image": "https://guwa.app/assets/brand/guwa-feature-graphic.png"
+      "image": "https://guwa.app/assets/brand/guwa-open-graph-1200x630.png"
     }
   </script>
 </head>
@@ -43,14 +45,18 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="/" aria-label="Guwa home">
-      <img src="/assets/brand/guwa-mark.png" width="48" height="48" alt="" aria-hidden="true">
+      <img src="/assets/brand/guwa-mark-96.png" width="48" height="48" alt="" aria-hidden="true">
       <span>Guwa</span>
     </a>
-    <nav class="nav-links" aria-label="Primary navigation">
-      <a href="#how-it-works">How it works</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+      <a href="#features">Features</a>
       <a href="#memories">Memories</a>
       <a href="#pro">Guwa Pro</a>
       <a href="#founder-pass">Founder Pass</a>
+      <a href="/privacy/">Privacy</a>
       <a href="/support/">Support</a>
       <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.vincevence.questle">Google Play</a>
     </nav>
@@ -58,17 +64,27 @@
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-inner">
-        <p class="eyebrow">Questle is now Guwa</p>
+      <div class="hero-copy-block">
+        <p class="eyebrow eyebrow-light">Questle is now Guwa</p>
+        <img class="hero-wordmark" src="/assets/brand/guwa-wordmark-light.png" width="1000" height="300" alt="Guwa">
         <h1 id="hero-title">Small adventures for ordinary days.</h1>
-        <p class="hero-copy">Guwa helps you find something worth doing, experience it, and keep the memory through photos, notes, moods, badges, and your personal activity trail.</p>
+        <p>Guwa helps you find something worth doing, experience it, and keep the memory through photos, notes, moods, badges, and your personal activity trail.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle">
+          <a class="button button-light" href="https://play.google.com/store/apps/details?id=com.vincevence.questle">
             <img src="/assets/brand/google-play-mark.png" width="22" height="22" alt="" aria-hidden="true">
             Get Guwa on Google Play
           </a>
-          <a class="text-link" href="#how-it-works">See how Guwa works</a>
+          <a class="text-link text-link-light" href="#how-it-works">How Guwa works</a>
         </div>
+      </div>
+      <div class="hero-visual">
+        <picture class="hero-illustration">
+          <source type="image/webp" srcset="/assets/guwa-site/optimized/guwa-hero-doorway-400.webp 400w, /assets/guwa-site/optimized/guwa-hero-doorway-640.webp 640w, /assets/guwa-site/optimized/guwa-hero-doorway-900.webp 900w" sizes="(max-width: 760px) 50vw, 430px">
+          <img src="/assets/guwa-site/optimized/guwa-hero-doorway-640.png" width="640" height="640" alt="Guwa cat stepping through an open doorway to begin a small adventure.">
+        </picture>
+        <figure class="device-frame hero-device">
+          <img src="/assets/screens/optimized/guwa-home-720.webp" width="720" height="1600" alt="Current Guwa Home screen with an active daily activity and catalog navigation.">
+        </figure>
       </div>
     </section>
 
@@ -79,69 +95,133 @@
       <p>Optional Account Backup</p>
     </section>
 
-    <section id="how-it-works" class="section section-intro">
+    <section id="how-it-works" class="section how-section" aria-labelledby="how-title">
       <div class="section-heading">
         <p class="eyebrow">A gentle loop</p>
-        <h2>Choose something. Go do it. Keep what mattered.</h2>
+        <h2 id="how-title">Find something. Go do it. Keep the memory.</h2>
+        <p>No pressure to keep up. Guwa gives you a small idea when you want one and a quiet place to remember it afterward.</p>
       </div>
-      <ol class="step-list">
+      <ol class="illustrated-steps">
         <li>
-          <span class="step-number">01</span>
-          <div><h3>Find an activity</h3><p>Browse by category, mood, place, time, and energy, or use Today’s Quest.</p></div>
+          <picture>
+            <source type="image/webp" srcset="/assets/guwa-site/optimized/guwa-find-activity-400.webp 400w, /assets/guwa-site/optimized/guwa-find-activity-640.webp 640w" sizes="(max-width: 760px) 86vw, 360px">
+            <img src="/assets/guwa-site/optimized/guwa-find-activity-640.png" width="640" height="640" alt="Guwa cat choosing between three simple activity prompts." loading="lazy">
+          </picture>
+          <span>01</span>
+          <h3>Find an activity</h3>
+          <p>Open Today’s Quest or browse the catalog by category, time, difficulty, and place.</p>
         </li>
         <li>
-          <span class="step-number">02</span>
-          <div><h3>Make it yours</h3><p>Start, reroll, lock, or create a custom activity when you want your own plan.</p></div>
+          <picture>
+            <source type="image/webp" srcset="/assets/guwa-site/optimized/guwa-go-experience-400.webp 400w, /assets/guwa-site/optimized/guwa-go-experience-640.webp 640w" sizes="(max-width: 760px) 86vw, 360px">
+            <img src="/assets/guwa-site/optimized/guwa-go-experience-640.png" width="640" height="640" alt="Guwa cat following a short curved trail toward a small flag." loading="lazy">
+          </picture>
+          <span>02</span>
+          <h3>Go experience it</h3>
+          <p>Start the activity, reroll when it does not fit, or lock it for later.</p>
         </li>
         <li>
-          <span class="step-number">03</span>
-          <div><h3>Save the memory</h3><p>Add an optional note, mood, and local photo, then watch your trail grow.</p></div>
+          <picture>
+            <source type="image/webp" srcset="/assets/guwa-site/optimized/guwa-keep-memory-400.webp 400w, /assets/guwa-site/optimized/guwa-keep-memory-640.webp 640w" sizes="(max-width: 760px) 86vw, 360px">
+            <img src="/assets/guwa-site/optimized/guwa-keep-memory-640.png" width="640" height="640" alt="Guwa cat beside a notebook, photo frame, mood mark, and calendar." loading="lazy">
+          </picture>
+          <span>03</span>
+          <h3>Keep the memory</h3>
+          <p>Complete it with an optional note and mood. Guwa Pro can add a local photo memory.</p>
         </li>
       </ol>
     </section>
 
-    <section class="product-band" aria-labelledby="product-title">
-      <div class="product-copy">
-        <p class="eyebrow">Inside Guwa</p>
-        <h2 id="product-title">The activity stays clear. Everything else stays quiet.</h2>
-        <p>Today’s Quest is ready when you open the app. The catalog, Trail, badges, and custom activities are close by without turning your day into another dashboard.</p>
-      </div>
-      <div class="screen-row" role="group" aria-label="Guwa application screens">
-        <figure><img src="/assets/screens/guwa-home.png" width="1080" height="2400" alt="Guwa Home with Today’s Quest and the activity catalog." loading="lazy"><figcaption>Choose</figcaption></figure>
-        <figure><img src="/assets/screens/guwa-trail.png" width="1080" height="2400" alt="Guwa Trail showing a monthly activity calendar." loading="lazy"><figcaption>Remember</figcaption></figure>
-        <figure><img src="/assets/screens/guwa-badges.png" width="1080" height="2400" alt="Guwa Badges showing available progress milestones." loading="lazy"><figcaption>Grow</figcaption></figure>
+    <section id="features" class="feature-band" aria-labelledby="feature-title">
+      <div class="feature-inner">
+        <div class="section-heading">
+          <p class="eyebrow">Explore activities</p>
+          <h2 id="feature-title">A catalog for the kind of day you actually have.</h2>
+          <p>Browse cafe, creative, culture, explore, nature, reflection, and treat ideas. Longer monthly activities appear as a distinct Big Quest when enabled.</p>
+        </div>
+        <div class="screen-stage" role="group" aria-label="Current Guwa application screens">
+          <figure class="device-frame device-secondary">
+            <img src="/assets/screens/optimized/guwa-trail-720.webp" width="720" height="1600" alt="Current Guwa Trail screen showing the monthly calendar." loading="lazy">
+            <figcaption>Calendar</figcaption>
+          </figure>
+          <figure class="device-frame device-primary">
+            <img src="/assets/screens/optimized/guwa-home-720.webp" width="720" height="1600" alt="Current Guwa Home screen showing Today’s Quest and catalog access." loading="lazy">
+            <figcaption>Home</figcaption>
+          </figure>
+          <figure class="device-frame device-secondary">
+            <img src="/assets/screens/optimized/guwa-badges-720.webp" width="720" height="1600" alt="Current Guwa Badges screen showing personal progress milestones." loading="lazy">
+            <figcaption>Badges</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
-    <section id="memories" class="section memory-section">
-      <div class="memory-art"><img src="/assets/illustrations/guwa-trail.png" width="591" height="591" alt="Guwa cat following a map toward a flag, with activity milestones along the trail." loading="lazy"></div>
-      <div class="memory-copy">
-        <p class="eyebrow">Your personal trail</p>
-        <h2>Small days become something you can look back on.</h2>
-        <p>Completed activities appear in your calendar and timeline. Notes, moods, badges, streaks, goals, and local photo memories stay personal instead of becoming a public feed.</p>
+    <section id="memories" class="section split-section memory-section" aria-labelledby="memory-title">
+      <div class="split-art">
+        <picture>
+          <source type="image/webp" srcset="/assets/guwa-site/optimized/guwa-keep-memory-400.webp 400w, /assets/guwa-site/optimized/guwa-keep-memory-640.webp 640w, /assets/guwa-site/optimized/guwa-keep-memory-900.webp 900w" sizes="(max-width: 760px) 88vw, 520px">
+          <img src="/assets/guwa-site/optimized/guwa-keep-memory-900.png" width="900" height="900" alt="Guwa cat beside a notebook, photo frame, mood mark, and calendar." loading="lazy">
+        </picture>
+      </div>
+      <div class="split-copy">
+        <p class="eyebrow">Keep your memories</p>
+        <h2 id="memory-title">Small days become something you can look back on.</h2>
+        <p>Completed activities appear in your calendar and timeline. Notes, moods, and local photo memories stay personal instead of becoming a public feed.</p>
         <ul class="plain-list">
-          <li>Photos remain on your device.</li>
+          <li>Photo files remain on your device.</li>
           <li>Google Sign-In is optional.</li>
           <li>Account Backup syncs progress, not photo files.</li>
         </ul>
       </div>
+      <figure class="device-frame memory-device">
+        <img src="/assets/screens/optimized/guwa-trail-720.webp" width="720" height="1600" alt="Current Guwa Trail screen with calendar and timeline navigation." loading="lazy">
+      </figure>
     </section>
 
-    <section id="pro" class="pro-band">
-      <div>
-        <p class="eyebrow eyebrow-light">Guwa Pro</p>
-        <h2>More room when you want it.</h2>
-        <p>Unlock unlimited catalog picks, more custom activities, local photo memories, richer recap cards, and optional progress backup across devices.</p>
+    <section class="progress-band" aria-labelledby="progress-title">
+      <div class="progress-inner">
+        <div class="progress-copy">
+          <p class="eyebrow eyebrow-light">Progress your way</p>
+          <h2 id="progress-title">A trail, not a leaderboard.</h2>
+          <p>Badges, streaks, goals, and statistics reflect what you have done without turning ordinary life into a competition.</p>
+        </div>
+        <picture class="progress-art">
+          <source type="image/webp" srcset="/assets/guwa-site/optimized/guwa-progress-badges-400.webp 400w, /assets/guwa-site/optimized/guwa-progress-badges-640.webp 640w, /assets/guwa-site/optimized/guwa-progress-badges-900.webp 900w" sizes="(max-width: 760px) 86vw, 480px">
+          <img src="/assets/guwa-site/optimized/guwa-progress-badges-900.png" width="900" height="900" alt="Guwa cat placing a badge on a short personal progress trail." loading="lazy">
+        </picture>
+        <figure class="device-frame progress-device">
+          <img src="/assets/screens/optimized/guwa-badges-720.webp" width="720" height="1600" alt="Current Guwa Badges screen showing earned and upcoming milestones." loading="lazy">
+        </figure>
       </div>
-      <img src="/assets/screens/guwa-profile.png" width="1080" height="2400" alt="Guwa Profile showing plan, progress, and Account Backup options." loading="lazy">
+    </section>
+
+    <section id="pro" class="section pro-section" aria-labelledby="pro-title">
+      <div class="pro-copy">
+        <p class="eyebrow">Guwa Pro</p>
+        <h2 id="pro-title">More room when you want it.</h2>
+        <p>Guwa stays useful for free. Pro removes catalog and custom-activity limits and unlocks local photo memories, richer recap exports, and eligible Account Backup.</p>
+        <ul class="feature-list">
+          <li><strong>Unlimited catalog starts</strong><span>No weekly wait between catalog choices.</span></li>
+          <li><strong>Unlimited custom activities</strong><span>Create and save more plans of your own.</span></li>
+          <li><strong>Photo memories</strong><span>Add camera or gallery moments that stay local.</span></li>
+          <li><strong>Account Backup</strong><span>Optional progress backup after Google Sign-In.</span></li>
+        </ul>
+      </div>
+      <figure class="device-frame pro-device">
+        <img src="/assets/screens/optimized/guwa-profile-720.webp" width="720" height="1600" alt="Current Guwa Profile showing the free plan, Pro benefits, and Account Backup." loading="lazy">
+      </figure>
     </section>
 
     <section id="founder-pass" class="founder-section" aria-labelledby="founder-title">
+      <picture class="founder-art">
+        <source type="image/webp" srcset="/assets/guwa-site/optimized/guwa-founder-pass-400.webp 400w, /assets/guwa-site/optimized/guwa-founder-pass-640.webp 640w" sizes="(max-width: 760px) 82vw, 430px">
+        <img src="/assets/guwa-site/optimized/guwa-founder-pass-640.png" width="640" height="640" alt="Guwa cat presenting a blank golden Founder Pass ticket." loading="lazy">
+      </picture>
       <div class="founder-copy">
         <p class="eyebrow">Limited launch offer</p>
         <h2 id="founder-title">Try Guwa Pro with the Founder Pass.</h2>
         <p>Eligible new users receive 60 days of Guwa Pro. Accounts must be no more than 30 days old, capacity is limited to 2,000 successful redemptions, and the offer is available through October 12, 2026.</p>
-        <p class="founder-note">Eligibility is verified securely in the app and remains subject to campaign capacity.</p>
+        <p class="founder-note">Eligibility is confirmed securely in the app and remains subject to campaign capacity.</p>
       </div>
       <div class="code-panel">
         <span>Founder Pass code</span>
@@ -151,13 +231,29 @@
       </div>
     </section>
 
+    <section class="trust-section" aria-labelledby="trust-title">
+      <div>
+        <p class="eyebrow">Privacy and trust</p>
+        <h2 id="trust-title">Your memories are not content.</h2>
+      </div>
+      <div class="trust-points">
+        <p><strong>Local first</strong><span>Activities, notes, moods, and photos stay on your device by default.</span></p>
+        <p><strong>Backup is optional</strong><span>Sign in only when you want eligible progress backup across devices.</span></p>
+        <p><strong>No public feed</strong><span>Guwa is a private personal trail, not a social network.</span></p>
+      </div>
+      <a class="text-link" href="/privacy/">Read the privacy policy</a>
+    </section>
+
     <section class="final-cta">
       <div>
         <p class="eyebrow">Your next little adventure</p>
         <h2>Find something worth remembering.</h2>
         <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.vincevence.questle">Download Guwa</a>
       </div>
-      <img src="/assets/brand/guwa-mark.png" width="512" height="512" alt="Guwa cat stepping through a doorway." loading="lazy">
+      <picture>
+        <source type="image/webp" srcset="/assets/brand/guwa-mark-512.webp">
+        <img src="/assets/brand/guwa-mark-512.png" width="512" height="512" alt="Guwa cat looking through an open doorway." loading="lazy">
+      </picture>
     </section>
   </main>
 
